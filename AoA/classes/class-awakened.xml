@@ -1,0 +1,2342 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Awakened</name>
+		<description>The Awakened Class (Homebrew).</description>
+		<author>LazyLucien</author>
+		<update version="0.1">
+			<file name="class-awakened.xml" url="https://github.com/LucienBreitkopf/aurorabuilder/blob/master/class-awakened.xml" />
+		</update>
+	</info>
+
+	<element name="Awakened" type="Class" source="Homebrew" id="ID_LLUC_CLASS_AWAKENED">
+		<description>
+			<p class="flavor">A Being housing the Soul of a powerful entity, which might want to help or destroy their host.</p>			
+			<p>With shackles tightened around his wrists, the elf assassin watched in disbelief as his captor, a young human, readied his horse for departure."How... how were you able to find me? There is no one alive that knows about this place. "The Human looked him deep into the eyes, something unnatural shimmering in them. "That may be, however Myralia knows." A name the elf had not heard in over one hundred years. "Ridiculous, she died. I killed her myself because she kept interfering with my jobs." The shimmering in the young man's eyes grew stronger and finally the elf was able to see it, see her inside. With a wide smile, the man said in a ghostly, female voice: "I finally got you!"</p>
+			<p class="indent">Charantir the Archmage awoke with a terrible pain. He remembered performing magical rituals, drinking an abominable potion, all in persuit of immortality. He looked around, not familiar with his surroundings and his body began moving on its own accord. Then he realized, he was no longer in his own body, nor did he become an immortal being, like he hoped to become, but instead he was trapped in a young girl's body. 'Well, that is at least some sort of result. Now I just need to find a way to gain control over this vessel and refine the process for the next try.'</p>
+			<p class="indent">"Please, don't do this!" she cried out to the man standing atop a cliff. "I must, it is telling me to do things, terrible things. I cannot expose you all to this danger. It has to end now!" with tears in his eyes, he turned around and jumped. "No!" the girl screamed as she watched him disappear beneath the ciff's edge. Only seconds later, great heat emenated from the point where she just watched her love disappear. Fiery tentacles latched themselves onto the edge and something pulled itself upwards. The distorted features of the man could be seen rising, his tears transforming into embers floating down from his visage. A single word escaped his mouth: "Run."</p>
+			<p class="indent">The young boy cowered in a corner, his bullies towering over him. "Hah, what a whimp. Let's teach him a lesson." A few other voices, the ones in his head, spoke up. "You cannot sit here and take it, they might kill you." "Yes, let us help, we will make the bullies go away." The boy shook his head and soon after, the first punch connected. He cried out in pain. "You need us. Haven't we always been by your side, guiding and protecting you?" "Let go, just say the word and the pain will go away." Another hit, accompanied by the sound of something breaking. "Let go and let us help." He nodded, then there was darkness. He was safe now, sleeping, not bothered by the horrible screams that followed.</p>
+			<h4>A PRESENCE INSIDE</h4>
+			<p>Awakened share their body with another powerful soul. Some of them might help their hosts, while others might atively work against them. They might have to fight a constant struggle against their other self or live peacefully in a kind of symbiosis with them.</p>
+			<p class="indent">It is therefore extremely rare to meet two Awakened who remotely share the same behaviors or powers. They might come off as raving lunatics, flippant and moody or just like your perfectly normal adventurer.</p>
+			<h4>STRANGE SOURCE OF POWER</h4>
+			<p>The powers that Awakened posess might at first glance seem like those of a sorcerer, however when they have the time to observe, many conventional magic users will have difficulty figuring out the exact source of power of Awakened.</p>
+			<p class="indent">While they posess a wide array of spells of an arcane nature, they still seem to draw their power from some external power. Divine casters on the other hand might wonder, why Awakened never seem to meditate or pray to that external power to regain their spellcasting abilities.</p>
+			<p class="indent">Thus, Awakened will be seen as a strange anomaly, with many spellcasters and non-spellcasters alike being wary of their abilities.</p>
+			<h4>CREATING AN AWAKENED</h4>
+			<p>When creating an Awakened, consider your character's background. How did you become an Awakened? Have you been born with another soul housed in your body? Were you experimented on by powerful mages? Has a tragic event of your past forced to hide some of your memories and emotions away, now manifesting as their own being?</p>
+			<p class="indent">Consider what your purpose is with your newfound powers, or how you plan to use your powers. Do you keep the presence within you hidden, passing as a sorceror instead? Or do you embrace your second self, fully utilizing its capabilities for all the world to see?</p>
+			<h5>QUICK BUILD</h5>
+			<p>You can make an Awakened quickly by following these suggestions. First, make Wisdom your highest ability score, followed by Dexterity (Strength for an Awakened Ancient Warrior) or Constitution. Second, choose any Background corresponding to the way you received your Awakened Soul.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As an awakened, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per awakened level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per awakened level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light armor</li>
+                <li><strong>Weapons:</strong> Simple weapons</li>
+                <li><strong>Tools:</strong> None</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Strength, Dexterity</li>
+                <li><strong>Skills:</strong> Choose two skills from Arcana, Deception, History, Insight, Investigation, Performance</li>
+                <li><strong>Languages:</strong> One of your choice</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li> <i>(a)</i> a simple weapon or <i>(b)</i> a martial weapon (if proficient) </li>
+				<li> <i>(a)</i> leather armor or <i>(b)</i> scale mail (if proficient) <i>(c)</i> chain mail (if proficient) </li>
+				<li> <i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> a shield (if proficient) </li>
+				<li> <i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack </li>
+			</ul>
+			<h5 class="caption">THE AWAKENED</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td class="left">Soul Points</td><td class="col-10">Spells Known</td><td>1st</td><td>2nd</td><td>3rd</td><td>4th</td><td>5th</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Awakened Soul</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 2nd</td><td class="left">Soul Alignment, Spellcasting, Soulbound Spells</td><td>2</td><td>2</td><td>2</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 3rd</td><td class="left">Awakened Soul feature</td><td>3</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 5th</td><td class="left">Manifest Essence</td><td>5</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 6th</td><td class="left">Awakened Soul feature</td><td>6</td><td>4</td><td>4</td><td>2</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 7th</td><td class="left">Soul Alignment</td><td>7</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>8</td><td>5</td><td>4</td><td>3</td><td>—</td><td>—</td><td>—</td></tr>
+				<tr><td> 9th</td><td class="left">—</td><td>9</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>10th</td><td class="left">Awakened Soul feature</td><td>10</td><td>6</td><td>4</td><td>3</td><td>2</td><td>—</td><td>—</td></tr>
+				<tr><td>11th</td><td class="left">Dichotomous Soul</td><td>11</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>12</td><td>7</td><td>4</td><td>3</td><td>3</td><td>—</td><td>—</td></tr>
+				<tr><td>13th</td><td class="left">Soul Alignment</td><td>13</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>14th</td><td class="left">Awakened Soul feature</td><td>14</td><td>8</td><td>4</td><td>3</td><td>3</td><td>1</td><td>—</td></tr>
+				<tr><td>15th</td><td class="left">Manifest Mastery</td><td>15</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>16</td><td>9</td><td>4</td><td>3</td><td>3</td><td>2</td><td>—</td></tr>
+				<tr><td>17th</td><td class="left">—</td><td>17</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>18th</td><td class="left">Becoming One</td><td>18</td><td>10</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>19</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+				<tr><td>20th</td><td class="left">Delve Deeper</td><td>20</td><td>11</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>
+			</table>
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_AWAKENED_SOUL" />
+			<!--div element="ID_LLUC_CLASSFEATURE_AWAKENED_SOUL_ALIGNMENT" /-->
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_SPELLCASTING" />
+			<!--div element="ID_LLUC_CLASSFEATURE_AWAKENED_SOULBOUND_SPELLS" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_ASI" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_MANIFEST_ESSENCE" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_DICHOTOMOUS_SOUL" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_MANIFEST_MASTERY" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_BECOMIN_ONE" />
+			<div element="ID_LLUC_CLASSFEATURE_AWAKENED_DELVE_DEEPER" /-->
+		</description>
+		<sheet display="false">
+			<description>A Being housing the Soul of a powerful entity, which might want to help or destroy their host.</description>
+		</sheet>
+		<setters>
+			<set name="short">A Being housing the Soul of a powerful entity, which might want to help or destroy their host.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" requirements="!ID_LLUC_MULTICLASS_AWAKENED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" requirements="!ID_LLUC_MULTICLASS_AWAKENED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_LLUC_MULTICLASS_AWAKENED" />
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_LLUC_MULTICLASS_AWAKENED" />
+			<select type="Proficiency" name="Skill Proficiency (Awakened)" supports="ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_HISTORY|ID_PROFICIENCY_SKILL_INSIGHT|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERFORMANCE" number="2" requirements="!ID_LLUC_MULTICLASS_AWAKENED" />
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_AWAKENED_SOUL" level="1"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_SOUL_ALIGNMENT" level="2"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_SPELLCASTING" level="2"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_SOULBOUND_SPELLS" level="2"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_ASI" level="4"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_MANIFEST_ESSENCE" level="5"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_DICHOTOMOUS_SOUL" level="11"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_MANIFEST_MASTERY" level="15"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_BECOMIN_ONE" level="18"/>
+			<grant type="Class Feature" id="ID_LLUC_CLASSFEATURE_AWAKENED_DELVE_DEEPER" level="20"/>
+		</rules>
+		<multiclass id="ID_LLUC_MULTICLASS_AWAKENED">
+			<prerequisite>Wisdom 13</prerequisite>
+			<requirements>[wis:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, simple weapons</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Awakened Soul" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_AWAKENED_SOUL">
+		<description>
+			<p>Choose an Awakened Soul, which describes the the type of soul coexisting in your body: Ancient Warrior, Ascended Spellcaster, Primordial Being, or Inner Demons, all detailed at the end of the class description.</p>
+			<p class="indent">Your choice grants you features when you choose it at 1st level and again at 3rd, 6th, 10th, and 14th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Awakened Archetype" supports="Awakened Archetype" />
+		</rules>
+	</element>
+	<!--element name="Natural Explorer" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_SOUL_ALIGNMENT">
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. Choose one type of favored terrain: arctic, coast, desert, forest, grassland, mountain, swamp, or the Underdark. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+			<p class="indent">You choose additional favored terrain types at 6th and 10th level.</p>
+		</description>
+		<sheet>
+			<description>When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in. While traveling for an hour or more in your favored terrain, you gain the following benefits:
+			Difficult terrain doesn’t slow your group’s travel.
+			Your group can’t become lost except by magical means.
+			Even when you are engaged in another activity while traveling, you remain alert to danger.
+			If you are traveling alone, you can move stealthily at a normal pace.
+			When you forage, you find twice as much food as you normally would.
+			While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</description>
+		</sheet>
+		<rules>
+			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="1" />
+			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="6" />
+			<select type="Class Feature" name="Favored Terrain" supports="Favored Terrain" level="10" />
+		</rules>
+	</element-->
+	<!--element name="Fighting Style" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FIGHTING_STYLE">
+		<description>
+			<p>At 2nd level, you adopt a particular style of fighting as your specialty. Choose one of the following options. You can’t take a Fighting Style option more than once, even if you later get to choose again.</p>
+			<h5 class="caption">ARCHERY</h5>
+			<p>You gain a +2 bonus to attack rolls you make with ranged weapons.</p>
+			<h5 class="caption">DEFENSE</h5>
+			<p>While you are wearing armor, you gain a +1 bonus to AC.</p>
+			<h5 class="caption">DUELING</h5>
+			<p>When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.</p>
+			<h5 class="caption">TWO-WEAPON FIGHTING</h5>
+			<p>When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Fighting Style" supports="Fighting Style,Ranger" level="2"/>
+		</rules>
+	</element-->
+	<element name="Spellcasting" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_SPELLCASTING">
+		<description>
+			<p>By the time you reach 2nd level, you have learned to utilize the essence of your awakened soul to produce magical effects.</p>
+			<h5>SPELL SLOTS</h5>
+			<p>The Awakened table shows how many spell slots you have to cast your awakened spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell’s level or higher. You regain all expended spell slots when you finish a long rest.</p>
+			<p class="indent">For example, if you know the 1st-level spell dissonant whispers and have a 1st-level and a 2nd-level spell slot available, you can cast dissonant whispers using either slot.</p>
+			<h5>SPELLS KNOWN OF 1ST LEVEL AND HIGHER</h5>
+			<p>You know two 1st-level spells of your choice from the awakened spell list.</p>
+			<p class="indent">The Spells Known column of the Awakened table shows when you learn more awakened spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 5th level in this class, you can learn one new spell of 1st or 2nd level.</p>
+			<p class="indent">Additionally, when you gain a level in this class, you can choose one of the awakened spells you know and replace it with another spell from the awakened spell list, which also must be of a level for which you have spell slots.</p>
+			<h5>SPELLCASTING ABILITY</h5>
+			<p>Wisdom is your spellcasting ability for your awakened spells, since your magic draws on your attunement to the awakened soul. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for an awakened spell you cast and when making an attack roll with one.</p>
+			<center>
+				<p><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p>
+				<p><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p>
+			</center>
+		</description>
+		<sheet display="false">
+			<description>You have learned to utilize the essence of your awakened soul to produce magical effects.</description>
+		</sheet>
+		<spellcasting name="Awakened" ability="Wisdom" allowReplace="true">
+			<list>Awakened</list>
+		</spellcasting>
+		<rules>
+			<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS_SPELLCASTING_SLOTS_HALF" requirements="ID_INTERNAL_GRANT_MULTICLASS"/>
+			<stat name="awakened:spellcasting:slots:1" value="2" level="2" />
+			<stat name="awakened:spellcasting:slots:1" value="1" level="3" />
+			<stat name="awakened:spellcasting:slots:1" value="1" level="5" />
+			<stat name="awakened:spellcasting:slots:2" value="2" level="5" />
+			<stat name="awakened:spellcasting:slots:2" value="1" level="7" />
+			<stat name="awakened:spellcasting:slots:3" value="2" level="9" />
+			<stat name="awakened:spellcasting:slots:3" value="1" level="11" />
+			<stat name="awakened:spellcasting:slots:4" value="1" level="13" />
+			<stat name="awakened:spellcasting:slots:4" value="1" level="15" />
+			<stat name="awakened:spellcasting:slots:4" value="1" level="17" />
+			<stat name="awakened:spellcasting:slots:5" value="1" level="17" />
+			<stat name="awakened:spellcasting:slots:5" value="1" level="19" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="2" number="2" spellcasting="Awakened"/>
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="3" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="5" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="7" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="9" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="11" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="13" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="15" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="17" spellcasting="Awakened" />
+			<select type="Spell" name="Spellcasting (Awakened)" supports="$(spellcasting:list),$(spellcasting:slots)" level="19" spellcasting="Awakened" />
+		</rules>
+	</element>
+	<!--element name="Ranger Archetype" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_AWAKENED_ARCHETYPE">
+		<description>
+			<p>At 3rd level, you choose an archetype that you strive to emulate: Hunter or Beast Master, both detailed at the end of the class description. Your choice grants you features at 3rd level and again at 7th, 11th, and 15th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Ranger Archetype" supports="Ranger Archetype" />
+		</rules>
+	</element-->
+	<!--element name="Primeval Awareness" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_PRIMEVAL_AWARENESS">
+		<description>
+			<p>Beginning at 3rd level, you can use your action and expend one ranger spell slot to focus your awareness on the region around you. For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can expend one ranger spell slot to focus your awareness on the region around you.
+			For 1 minute per level of the spell slot you expend, you can sense whether the following types of creatures are present within 1 mile of you (or within up to 6 miles if you are in your favored terrain): aberrations, celestials, dragons, elementals, fey, fiends, and undead. This feature doesn’t reveal the creatures’ location or number.</description>
+		</sheet>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_ASI">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Ranger 4)" supports="Improvement Option,Ranger,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Ranger 8)" supports="Improvement Option,Ranger,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Ranger 12)" supports="Improvement Option,Ranger,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Ranger 16)" supports="Improvement Option,Ranger,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Ranger 19)" supports="Improvement Option,Ranger,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_EXTRA_ATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description>You can attack twice, instead of once, whenever you take the Attack action on your turn.</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Land’s Stride" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_LANDS_STRIDE">
+		<description>
+			<p>Starting at 8th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p>
+			<p class="indent">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</p>
+		</description>
+		<sheet>
+			<description>Moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
+			You have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the entangle spell.</description>
+		</sheet>
+	</element>
+	<element name="Hide in Plain Sight" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_HIDE_IN_PLAIN_SIGHT">
+		<description>
+			<p>Starting at 10th level, you can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.</p>
+			<p class="indent">Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Dexterity (Stealth) checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</p>
+		</description>
+		<sheet>
+			<description>You can spend 1 minute creating camouflage for yourself. You must have access to fresh mud, dirt, plants, soot, and other naturally occurring materials with which to create your camouflage.
+			Once you are camouflaged in this way, you can try to hide by pressing yourself up against a solid surface, such as a tree or wall, that is at least as tall and wide as you are. You gain a +10 bonus to Stealth checks as long as you remain there without moving or taking actions. Once you move or take an action or a reaction, you must camouflage yourself again to gain this benefit.</description>
+		</sheet>
+	</element>
+	<element name="Vanish" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_VANISH">
+		<description>
+			<p>Starting at 14th level, you can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</p>
+		</description>
+		<sheet>
+			<description>You can use the Hide action as a bonus action on your turn. Also, you can’t be tracked by nonmagical means, unless you choose to leave a trail.</description>
+		</sheet>
+	</element>
+	<element name="Feral Senses" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FERAL_SENSES">
+		<description>
+			<p>At 18th level, you gain preternatural senses that help you fight creatures you can’t see. When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it.</p>
+			<p class="indent">You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</p>
+		</description>
+		<sheet>
+			<description>When you attack a creature you can’t see, your inability to see it doesn’t impose disadvantage on your attack rolls against it. 
+			You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn’t hidden from you and you aren’t blinded or deafened.</description>
+		</sheet>
+	</element>
+	<element name="Foe Slayer" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FOE_SLAYER">
+		<description>
+			<p>At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns, you can add {{wisdom:modifier}} to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.</description>
+		</sheet>
+	</element>
+
+	<element name="Aberrations" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_ABERRATIONS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Aberrations are utterly alien beings. Many of them have innate magical abilities drawn from the creature’s alien mind rather than the mystical forces of the world. The quintessential aberrations are aboleths, beholders, mind fiayers, and slaadi.</p>
+		</description>
+	</element>
+	<element name="Beasts" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_BEAST">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Beasts are nonhumanoid creatures that are a natural part of the fantasy ecology. Some of them have magical powers, but most are unintelligent and lack any society or language. Beasts include all varieties of ordinary animals, dinosaurs, and giant versions of animals.</p>
+		</description>		
+	</element>
+	<element name="Celestials" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_CELESTIALS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Celestials are creatures native to the Upper Planes. Many of them are the servants of deities, employed as messengers or agents in the mortal realm and throughout the planes. Celestials are good by nature, so the exceptional celestial who strays from a good alignment is a horrifying rarity. Celestials include angels, couatls, and pegasi.</p>
+		</description>		
+	</element>
+	<element name="Constructs" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_CONSTRUCTS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Constructs are made, not born. Some are programmed by their creators to follow a simple set of instructions, while others are imbued with sentience and capable of independent thought. Golems are the iconic constructs. Many creatures native to the outer plane of Mechanus, such as modrons, are constructs shaped from the raw material of the plane by the will of more powerful creatures.</p>
+		</description>		
+	</element>
+	<element name="Dragons" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_DRAGONS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Dragons are large reptilian creatures of ancient origin and tremendous power. True dragons, including the good metallic dragons and the evil chromatic dragons, are highly intelligent and have innate magic. Also in this category are creatures distantly related to true dragons, but less powerful, less intelligent, and less magical, such as wyverns and pseudodragons.</p>
+		</description>		
+	</element>
+	<element name="Elementals" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_ELEMENTALS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Elementals are creatures native to the elemental planes. Some creatures of this type are little more than animate masses of their respective elements, including the creatures simply called elementals. Others have biological forms infused with elemental energy. The races of genies, including djinn and efreet, form the most important civilizations on the elemental planes. Other elemental creatures include azers, invisible stalkers, and water weirds.</p>
+		</description>		
+	</element>
+	<element name="Fey" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_FEY">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Fey are magical creatures closely tied to the forces of nature. They dwell in twilight groves and misty forests. In some worlds, they are closely tied to the Feywild, also called the Plane of Faerie. Some are also found in the Outer Planes, particularly the planes of Arborea and the Beastlands. Fey include dryads, pixies, and satyrs.</p>
+		</description>		
+	</element>
+	<element name="Fiends" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_FIENDS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Fiends are creatures of wickedness that are native to the Lower Planes. A few are the servants of deities, but many more labor under the leadership of archdevils and demon princes. Evil priests and mages sometimes summon fiends to the material world to do their bidding. If an evil celestial is a rarity, a good fiend is almost inconceivable. Fiends include demons, devils, hell hounds, rakshasas, and yugoloths.</p>
+		</description>		
+	</element>
+	<element name="Giants" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_GIANTS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Giants tower over humans and their kind. They are humanlike in shape, though some have multiple heads (ettins) or deformities (fomorians). The six varieties of true giant are hill giants, stone giants, frost giants, fire giants, cloud giants, and storm giants. Besides these, creatures such as ogres and trolls are giants.</p>
+		</description>		
+	</element>
+	<element name="Monstrosities" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_BEAST_MONSTROSITIES">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Monstrosities are monsters in the strictest sensefrightening creatures that are not ordinary, not truly natural, and almost never benign. Some are the results of magical experimentation gone awry (such as owl bears), and others, are the product-of terrible curses (including minotaurs and yuan-ti). They defy categorization, and in some sense serve as a catch-all category for creatures that don’t fit into any other type.</p>
+		</description>		
+	</element>
+	<element name="Oozes" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_OOZES">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Oozes are gelatinous creatures that rarely have a fixed shape. They are mostly subterranean, dwelling in caves and dungeons and feeding on refuse, carrion, or creatures unlucky enough to get in their way. Black puddings and gelatinous cubes are among the most recognizable oozes.</p>
+		</description>		
+	</element>
+	<element name="Plants" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_PLANTS">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Plants in this context are vegetable creatures, not ordinary flora. Most of them are ambulatory, and some are carnivorous. The quintessential plants are the shambling mound and the treant. Fungal creatures such as the gas spore and the myconid also fall into this category.</p>
+		</description>		
+	</element>
+	<element name="Undead" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_FAVORED_ENEMY_UNDEAD">
+		<supports>Favored Enemy,Monster Type</supports>
+		<description>
+			<p>Undead are once-living creatures brought to a horrifying state of undeath through the practice of necromantic magic or some unholy curse. Undead include walking corpses, such as vampires and zombies, as well as bodiless spirits, such as ghosts and specters.</p>
+		</description>		
+	</element>
+    <element name="Humanoids" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOIDS_1">
+        <supports>Favored Enemy,Monster Type</supports>
+        <description>
+            <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Humanoids" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOIDS_2">
+		<compendium display="false" />
+        <requirements>ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOIDS_1</requirements>
+        <supports>Favored Enemy,Monster Type</supports>
+        <description>
+            <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Humanoids" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOIDS_3">
+		<compendium display="false" />
+        <requirements>ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOIDS_2</requirements>
+        <supports>Favored Enemy,Monster Type</supports>
+        <description>
+            <p>Humanoids are the main peoples of the D&amp;D world, both civilized and savage, including humans and a tremendous variety of other species. They have language and culture, few if any innate magical abilities (though most humanoids can learn spellcasting), and a bipedal form. The most common humanoid races are the ones most suitable as player characters: humans, dwarves, elves, and halflings. Almost as numerous but far more savage and brutal, and almost uniformly evil, are the races of goblinoids (goblins, hobgoblins, and bugbears), orcs, gnolls, lizardfolk, and kobolds.</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Humans" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_HUMAN">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>In the reckonings of most worlds, humans are the youngest of the common races, late to arrive on the world scene and short-lived in comparison to dwarves, elves, and dragons. Perhaps it is because of their shorter lives that they strive to achieve as much as they can in the years they are given. Or maybe they feel they have something to prove to the elder races, and that’s why they build their mighty empires on the foundation of conquest and trade. Whatever drives them, humans are the innovators, the achievers, and the pioneers of the worlds.</p>
+        </description>
+    </element>
+    <element name="Dwarves" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_DWARVES">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Bold and hardy, dwarves are known as skilled warriors, miners, and workers of stone and metal. Though they stand well under 5 feet tall, dwarves are so broad and compact that they can weigh as much as a human standing nearly two feet taller.</p>
+        </description>
+    </element>
+    <element name="Elves" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_ELVES">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Elves are a magical people of otherworldly grace, living in the world but not entirely part of it. They live in places of ethereal beauty, in the midst of ancient forests or in silvery spires glittering with faerie light, where soft music drifts through the air and gentle fragrances waft on the breeze. Elves love nature and magic, art and artistry, music and poetry, and the good things of the world.</p>
+        </description>
+    </element>
+    <element name="Halflings" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_HALFLINGS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>The diminutive halflings survive in a world full of larger creatures by avoiding notice or, barring that, avoiding offense. Standing about 3 feet tall, they appear relatively harmless and so have managed to survive for centuries in the shadow of empires and on the edges of wars and political strife.</p>
+        </description>
+    </element>
+    <element name="Dragonborn" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_DRAGONBORN">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>It’s easy to assume that a dragonborn is a monster, especially if his or her scales betray a chromatic heritage. Unless the dragonborn starts breathing fire and causing destruction, though, people are likely to respond with caution rather than outright fear.</p>
+        </description>
+    </element>
+    <element name="Gnomes" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_GNOME">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Gnomes don’t look like a threat and can quickly disarm suspicion with good humor. The common folk are often curious about gnomes, likely never having seen one before, but they are rarely hostile or fearful.</p>
+        </description>
+    </element>
+    <element name="Half-Elves" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_HALF_ELF">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>To humans, half-elves look like elves, and to elves, they look human. In height, they’re on par with both parents, though they’re neither as slender as elves nor as broad as humans.</p>
+        </description>
+    </element>
+    <element name="Half-Orcs" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_HALF_ORC">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Half-orcs’ grayish pigmentation, sloping foreheads, jutting jaws, prominent teeth, and towering builds make their orcish heritage plain for all to see. Half-orcs stand between 6 and 7 feet tall and usually weigh between 180 and 250 pounds.</p>
+            <p class="indent"></p>
+        </description>
+    </element>
+    <element name="Tieflings" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_TIEFLING">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Tieflings are derived from human bloodlines, and in the broadest possible sense, they still look human. However, their infernal heritage has left a clear imprint on their appearance. Tieflings have large horns that take any of a variety of shapes - some have curling horns like a ram, others have straight and tall horns like a gazelle’s, and some spiral upward like an antelopes’ horns. They have thick tails, four to five feet long, which lash or coil around their legs when they get upset or nervous. Their canine teeth are sharply pointed, and their eyes are solid colors black, red, white, silver, or gold with no visible sclera or pupil. Their skin tones cover the full range of human coloration, but also include various shades of red. Their hair, cascading down from behind their horns, is usually dark, from black or brown to dark red, blue, or purple.</p>
+        </description>
+    </element>
+    <element name="Aarakocra" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_AARAKOCRA">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Aarakocra range the Howling Gyre, an endless storm of mighty winds and lashing rains that surrounds the tranquil realm of Aaqa in the Elemental Plane of Air. Making aerial patrols, these birdlike humanoids guard the windy borders of their home against invaders from the Elemental Plane of Earth, such as gargoyles, their sworn enemies.</p>
+        </description>
+    </element>
+    <element name="Bugbears" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_BUGBEARS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Bugbears are born for battle and mayhem. Surviving by raiding and hunting, they bully the weak and despise being bossed around, but their love of carnage means they will fight for powerful masters if bloodshed and treasure a reassured.</p>
+        </description>
+    </element>
+    <element name="Bullywugs" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_BULLYWUGS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Life as a bullywug is nasty, brutish, and wet. These frog-headed amphibious humanoids must stay constantly moist, dwelling in rainy forests, marshes, and damp caves. Always hungry and thoroughly evil, bullywugs overwhelm opponents with superior numbers when they can, but they flee from serious threats to search for easier prey.</p>
+            <p class="indent">Bullywugs have green, gray, or mottled yellow skin that shifts through shades of gray, green, and brown, allowing them to blend in with their surroundings. They wear crude armor and wield simple weapons, and can deliver a powerful bite to foes that press too close.</p>
+        </description>
+    </element>
+    <element name="Gith" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_GITH">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>The gith were a race of humanoids who had been enslaved by mind flayers for countless generations. Some sages claimed that they were once descended from humans, while others maintained that their original race was in fact unknown.</p>
+        </description>
+    </element>
+    <element name="Gnolls" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_GNOLLS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Gnolls are feral humanoids that attack settlements along the frontiers and borderlands of civilization without warning, slaughtering their victims and devouring their flesh.</p>
+        </description>
+    </element>
+    <element name="Grimlock" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_GRIMLOCK">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>The degenerate subterranean grimlocks were once human, but their worship of the mind flayers over generations of prowling the Underdark transformed them into blind, monstrous cannibals long ago. Debased Cultists. The empire of the mind flayers once spread across many worlds, enslaving countless races. Among those were human cultures whose high priests the mind flayers subverted using their insidious powers of thought control. Those leaders gradually turned the faiths of their followers toward the illithids, which they worshiped as blasphemous deities.</p>
+            <p class="indent">Over time, the rituals of these enslaved humans created fervent cannibal cults that regarded the brain eating of the mind flayers as a holy sacrament. The illithids commanded their worshipers to abduct other sentient creatures to be sacrificed. After the victims’ brains had been consumed, the mind flayers gave the lifeless bodies to the cultists.</p>
+        </description>
+    </element>
+    <element name="Goblins" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_GOBLINS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Goblins are small, black-hearted, selfish humanoids that lair in caves, abandoned mines, despoiled dungeons, and other dismal settings. Individually weak, goblins gather in large-sometimes overwhelming-numbers. They crave power and regularly abuse whatever authority they obtain.</p>
+        </description>
+    </element>
+    <element name="Hobgoblins" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_HOBGOBLINS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>War horns sound, stones fly from catapults, and the thunder of a thousand booted feet echoes across the land as hobgoblins march to battle. Across the borderlands of civilization, settlements and settlers must contend with these aggressive humanoids, whose thirst for conquest is never satisfied.</p>
+            <p class="indent">Hobgoblins have dark orange or red-orange skin, and hair ranging from dark red-brown to dark gray. Yellow or dark brown eyes peer out beneath their beetling brows, and their wide mouths sport sharp and yellowed teeth. A male hobgoblin might have a large blue or red nose, which symbolizes virility and power among goblinkin. Hobgoblins can live as long as humans, though their love of warfare and battle means that few do.</p>
+        </description>
+    </element>
+    <element name="Kenku" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_KENKU">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Kenku are feathered humanoids that wander the world as vagabonds, driven by greed. They can perfectly imitate any sound they hear.</p>
+        </description>
+    </element>
+    <element name="Kobolds" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_KOBOLDS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Kobolds are craven reptilian humanoids that worship evil dragons as demigods and serve them as minions and toadies. Kobolds inhabit dragons’ lairs when they can but more commonly infest dungeons, gathering treasures and trinkets to add to their own tiny hoards.</p>
+        </description>
+    </element>
+    <element name="Kuo-Toa" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_KUO_TOA">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Kuo-toa are degenerate fishlike humanoids that once inhabited the shores and islands of the surface world. Long ago humans and their ilk drove the kuo-toa underground, where they dwell in madness and everlasting night. Kuo-toa can no longer abide daylight.</p>
+        </description>
+    </element>
+    <element name="Lizardfolk" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_LIZARDFOLK">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Lizardfolk are primitive reptilian humanoids that lurk in the swamps and jungles of the world. Their hut villages thrive in forbidding grottos, half-sunken ruins, and watery caverns.</p>
+        </description>
+    </element>
+    <element name="Orcs" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_ORCS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Orcs are savage raiders and pillagers with stooped postures, low foreheads, and piggish faces with prominent lower canines that resemble tusks.</p>
+        </description>
+    </element>
+    <element name="Wereboars" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_WEREBOARS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Wereboars are ill-tempered and vulgar brutes. As humanoids, they are stocky and muscular, with short, stiff hair. In their humanoid and hybrid forms, they use heavy weapons, while in hybrid or animal form, they gain a devastating goring attack through which their curse is spread. A wereboar infects other creatures indiscriminately, relishing the fact that the more its victims resist the curse, the more savage and bestial they become.</p>
+            <p class="indent">Wereboars live in small family groups in remote forest areas, building ramshackle huts or dwelling in caves. They are suspicious of strangers but sometimes ally themselves with orcs.</p>
+        </description>
+    </element>
+    <element name="Wererats" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_WERERATS">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Wererats are cunning lycanthropes with sly, avaricious personalities. They are wiry and twitchy in humanoid form, with thin hair and darting eyes. In their humanoid and hybrid forms, wererats prefer light weapons and use ambush tactics rather than fighting as a pack. Although a wererat can deliver a nasty bite in its rat form, it favors that form for stealthy infiltration and escape rather than combat.</p>
+            <p class="indent">A wererat clan operates much like a thieves’ guild, with wererats transmitting their curse only to creatures they want to induct into the clan. Wererats that are accidentally cursed or break loose from the clan’s control are quickly hunted down and killed.</p>
+            <p class="indent">Wererat clans are found throughout urban civilization, often dwelling in cellars and catacombs. These creatures are common in the sewers beneath major cities, viewing those subterranean areas as their hunting grounds. Rats and giant rats are commonly found living among wererats.</p>
+        </description>
+    </element>
+    <element name="Weretigers" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_WERETIGER">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Weretigers are ferocious hunters and warriors with a haughty and fastidious nature. Lithe and sleekly muscular in humanoid form, they are taller than average and meticulously groomed. Weretigers grow to enormous size in animal and hybrid form, but they fight in their more refined humanoid form when they can.</p>
+            <p class="indent">They don’t like to pass on their curse, because every new weretiger means competition for territory and prey.</p>
+            <p class="indent">Weretigers live in jungles on the fringes of humanoid civilization, traveling to isolated settlements to trade or revel. They live and hunt alone or in small family groups.</p>
+        </description>
+    </element>
+    <element name="Werewolfs" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_WEREWOLF">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>A werewolf is a savage predator. In its humanoid form, a werewolf has heightened senses, a fiery temper, and a tendency to eat rare meat. Its wolf form is a fearsome predator, but its hybrid form is more terrifying by far-a furred and well-muscled humanoid body topped by a ravening wolf’s head. A werewolf can wield weapons in hybrid form, though it prefers to tear foes apart with its powerful claws and bite.</p>
+            <p class="indent">Most werewolves flee civilized lands not long after becoming afflicted. Those that reject the curse fear what will happen if they remain among their friends and family. Those that embrace the curse fear discovery and the consequences of their murderous acts. In the wild, werewolves form packs that also include wolves and dire wolves.</p>
+        </description>
+    </element>
+    <element name="Merfolk" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_MERFOLK">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Aquatic humanoids with the upper body of a human and the lower body of a fish, merfolk adorn their skin and scales with shell decorations.</p>
+            <p class="indent">Merfolk tribes and kingdoms span the world, and their people are as varied in color, culture, and outlook as the human races of the surface. Land folk and merfolk rarely meet except by chance, though starry-eyed mariners tell tales of romance with these creatures along the shoals of faraway islands.</p>
+            <p class="indent">Merfolk lack the materials and practical means to forge weapons beneath the waves, to write books and keep lore, or to shape stone to raise buildings and cities. As a result, most live in small hunter-gatherer tribes, each of which holds unique values and creeds. Only occasionally do merfolk unite under the rule of a single leader. They do so to face a common threat or to complete a conquest. Such unifications can be the beginning of undersea kingdoms with dynasties lasting hundreds of years.</p>
+        </description>
+    </element>
+    <element name="Quaggoths" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_QUAGGOTH">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Savage and territorial, quaggoths climb the chasms of the Underdark. They maul their foes in a frenzy, becoming even more murderous in the face of death.</p>
+        </description>
+    </element>
+    <element name="Sahuagin" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_SAHUAGIN">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Across fog-shrouded coasts or endless ocean swells, an ominous drone sounded on a conch shell chills the blood of all who hear it. This is the sound of the sahuagin hunting horn-a call to raid and battle. Coastal settlers refer to sahuagin as "sea devils," for sahuagin have no compassion in them, slaughtering the crews of ships and decimating coastal villages.</p>
+        </description>
+    </element>
+    <element name="Thri-Kreen" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_THRI_KREEN">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Thri-kreen wander the deserts and savannas of the world, avoiding all other races.</p>
+        </description>
+    </element>
+    <element name="Troglodytes" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_TROGLODYTE">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>The savage, degenerate troglodytes squat in the shallow depths of the Underdark in a constant state of war against their neighbors and one another. They mark the borders of their territories with cracked bones and skulls, or with pictographs painted in blood or dung.</p>
+            <p class="indent">Perhaps the most loathsome of all humanoids, troglodytes eat anything they can stomach. They dwell in filth. The walls of their cavern homes are smeared with grime, oily secretions, and the debris of their foul feasting.</p>
+        </description>
+    </element>
+    <element name="Yuan-Ti Purebloods" type="Class Feature" source="Monster Manual" id="ID_LLUC_MM_CLASS_FEATURE_AWAKENED_FAVORED_ENEMY_HUMANOID_YUAN_TI_PUREBLOOD">
+        <supports>Humanoid Favored Enemy</supports>
+        <description>
+            <p>Purebloods form the lowest caste of yuan-ti society. They closely resemble humans, yet a pureblood can’t pass for human under close scrutiny because there’s always some hint of its true nature, such as scaly patches of skin, serpentine eyes, pointed teeth, or a forked tongue. Wearing cloaks and cowls, they masquerade as humans and infiltrate civilized lands to gather information, kidnap prisoners for interrogation and sacrifice, and trade with anyone who has something that can further their myriad plots.</p>
+        </description>
+    </element>
+
+	<element name="Arctic" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_ARCTIC">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Coast" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_COAST">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Desert" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_DESERT">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Forest" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_FOREST">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Grassland" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_GRASSLAND">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Mountain" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_MOUNTAIN">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Swamp" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_SWAMP">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element>
+	<element name="Underdark" type="Class Feature" source="Homebrew" id="ID_LLUC_CLASSFEATURE_AWAKENED_NATURAL_EXPLORER_FT_UNDERDARK">
+		<supports>Favored Terrain</supports>
+		<description>
+			<p>You are particularly familiar with one type of natural environment and are adept at traveling and surviving in such regions. When you make an Intelligence or Wisdom check related to your favored terrain, your proficiency bonus is doubled if you are using a skill that you’re proficient in.</p>
+			<p class="indent">While traveling for an hour or more in your favored terrain, you gain the following benefits:</p>
+			<ul>
+				<li>Difficult terrain doesn’t slow your group’s travel.</li>
+				<li>Your group can’t become lost except by magical means.</li>
+				<li>Even when you are engaged in another activity while traveling (such as foraging, navigating, or tracking), you remain alert to danger.</li>
+				<li>If you are traveling alone, you can move stealthily at a normal pace.</li>
+				<li>When you forage, you find twice as much food as you normally would.</li>
+				<li>While tracking other creatures, you also learn their exact number, their sizes, and how long ago they passed through the area.</li>
+			</ul>
+		</description>		
+	</element-->
+	
+<!-- Archetypes -->
+	<element name="Ancient Warrior" type="Archetype" source="Homebrew" id="ID_LLUC_ARCHETYPE_AWAKENED_HUNTER">
+		<supports>Awakened Archetype</supports>
+		<description>
+			<p>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter’s path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons.</p>
+			<!--div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_MULTIATTACK" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE" /-->
+		</description>
+		<sheet display="false">
+			<description>Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMPELLED_DUEL" level="2" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_SHIELD" level="2" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BRANDING_SMITE" level="5" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ENLARGE_REDUCE" level="5" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_ELEMENTAL_WEAPON" level="9" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_HASTE" level="9" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DEATH_WARD" level="13" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_FIRE_SHIELD" level="13" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_BANISHING_SMITE" level="17" spellcasting="Awakened" prepared="true" />
+			<grant type="Spell" id="ID_PHB_SPELL_DESTRUCTIVE_WAVE" level="17" spellcasting="Awakened" prepared="true" />
+			<!--grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY" level="3" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS" level="7" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_MULTIATTACK" level="11" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE" level="15" /-->
+		</rules>
+	</element>
+	<!--element name="Hunter’s Prey" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY">
+		<description>
+			<p>At 3rd level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Colossus Slayer.</em></strong> Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn.</p>
+			<p class="indent"><strong><em>Giant Killer.</em></strong> When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>
+			<p class="indent"><strong><em>Horde Breaker.</em></strong> Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Hunter’s Prey" supports="Hunters Pray" />
+		</rules>
+	</element>
+	<element name="Defensive Tactics" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS">
+		<description>
+			<p>At 7th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Escape the Horde.</em></strong> Opportunity attacks against you are made with disadvantage.</p>
+			<p class="indent"><strong><em>Multiattack Defense.</em></strong> When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+			<p class="indent"><strong><em>Steel Will.</em></strong> You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Defensive Tactics" supports="Defensive Tactics" />
+		</rules>
+	</element>
+	<element name="Multiattack" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_MULTIATTACK">
+		<description>
+			<p>At 11th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Volley.</em></strong> You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>
+			<p class="indent"><strong><em>Whirlwind Attack.</em></strong> You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Multiattack" supports="Multiattack" />
+		</rules>
+	</element>
+	<element name="Superior Hunter’s Defense" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE">
+		<description>
+			<p>At 15th level, you gain one of the following features of your choice.</p>
+			<p class="indent"><strong><em>Evasion.</em></strong> You can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+			<p class="indent"><strong><em>Stand Against the Tide.</em></strong> When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</p>
+			<p class="indent"><strong><em>Uncanny Dodge.</em></strong> When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>		
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype Feature" name="Superior Hunter’s Defense" supports="Superior Hunters Defense" />
+		</rules>
+	</element>
+
+	<element name="Colossus Slayer" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY_COLOSSUS_SLAYER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>Your tenacity can wear down the most potent foes. When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hit point maximum. You can deal this extra damage only once per turn.</p>
+		</description>
+		<sheet usage="1/Turn">
+			<description>When you hit a creature with a weapon attack, the creature takes an extra 1d8 damage if it’s below its hp maximum.</description>
+		</sheet>
+	</element>
+	<element name="Giant Killer" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY_GIANT_KILLER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a Large or larger creature within 5 feet of you hits or misses you with an attack, you can use your reaction to attack that creature immediately after its attack, provided that you can see the creature.</description>
+		</sheet>
+	</element>
+	<element name="Horde Breaker" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_HUNTERS_PREY_HORDE_BREAKER">
+		<supports>Hunters Pray</supports>
+		<description>
+			<p>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</p>
+		</description>
+		<sheet>
+			<description>Once on each of your turns when you make a weapon attack, you can make another attack with the same weapon against a different creature that is within 5 feet of the original target and within range of your weapon.</description>
+		</sheet>
+	</element>
+	
+	<element name="Escape the Horde" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS_ESCAPE_THE_HORDE">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>Opportunity attacks against you are made with disadvantage.</p>
+		</description>
+		<sheet>
+			<description>Opportunity attacks against you are made with disadvantage.</description>
+		</sheet>
+	</element>
+	<element name="Multiattack Defense" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS_MULTIATTACK_DEFENSE">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</p>
+		</description>
+		<sheet>
+			<description>When a creature hits you with an attack, you gain a +4 bonus to AC against all subsequent attacks made by that creature for the rest of the turn.</description>
+		</sheet>
+	</element>
+	<element name="Steel Will" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_DEFENSIVE_TACTICS_STEEL_WILL">
+		<supports>Defensive Tactics</supports>
+		<description>
+			<p>You have advantage on saving throws against being frightened.</p>
+		</description>
+		<sheet>
+			<description>You have advantage on saving throws against being frightened.</description>
+		</sheet>
+	</element>
+	
+	<element name="Volley" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_MULTIATTACK_VOLLEY">
+		<supports>Multiattack</supports>
+		<description>
+			<p>You can use your action to make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can make a ranged attack against any number of creatures within 10 feet of a point you can see within your weapon’s range. You must have ammunition for each target, as normal, and you make a separate attack roll for each target.</description>
+		</sheet>
+	</element>
+	<element name="Whirlwind Attack" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_MULTIATTACK_WHIRLWIND_ATTACK">
+		<supports>Multiattack</supports>
+		<description>
+			<p>You can use your action to make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</p>
+		</description>
+		<sheet action="Action">
+			<description>You can make a melee attack against any number of creatures within 5 feet of you, with a separate attack roll for each target.</description>
+		</sheet>
+	</element>
+
+	<element name="Evasion" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE_EVASION">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>You can nimbly dodge out of the way of certain area effects, such as a red dragon’s fiery breath or a lightning bolt spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
+		</sheet>
+	</element>
+	<element name="Stand Against the Tide" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE_STAND_AGAINST_THE_TIDE">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>When a hostile creature misses you with a melee attack, you can use your reaction to force that creature to repeat the same attack against another creature (other than itself) of your choice.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When a hostile creature misses you with a melee attack, you can force that creature to repeat the same attack against another creature of your choice.</description>
+		</sheet>
+	</element>
+	<element name="Uncanny Dodge" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SUPERIOR_HUNTERS_DEFENSE_UNCANNY_DODGE">
+		<supports>Superior Hunters Defense</supports>
+		<description>
+			<p>When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack’s damage against you.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When an attacker that you can see hits you with an attack, you can halve the attack’s damage against you.</description>
+		</sheet>
+	</element>
+
+	<element name="Beast Master" type="Archetype" source="Homebrew" id="ID_LLUC_ARCHETYPE_AWAKENED_BEAST_MASTER">
+		<supports>Ranger Archetype</supports>
+		<description>
+			<p>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world. United in focus, beast and ranger work as one to fight the monstrous foes that threaten civilization and the wilderness alike. Emulating the Beast Master archetype means committing yourself to this ideal, working in partnership with an animal as its companion and friend.</p>
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_AWAKENEDS_COMPANION" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_EXCEPTIONAL_TRAINING" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_BESTIAL_FURY" />
+			<div element="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SHARE_SPELLS" />
+		</description>
+		<sheet display="false">
+			<description>The Beast Master archetype embodies a friendship between the civilized races and the beasts of the world.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_AWAKENEDS_COMPANION" level="3" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_EXCEPTIONAL_TRAINING" level="7" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_BESTIAL_FURY" level="11" />
+			<grant type="Archetype Feature" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SHARE_SPELLS" level="15" />
+		</rules>
+	</element>
+	<element name="Ranger’s Companion" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_AWAKENEDS_COMPANION">
+		<description>
+			<p>At 3rd level, you gain a beast companion that accompanies you on your adventures and is trained to fight alongside you. Choose a beast that is no larger than Medium and that has a challenge rating of 1/4 or lower (appendix D presents statistics for the hawk, mastiff, and panther as examples). Add your proficiency bonus to the beast’s AC, attack rolls, and damage rolls, as well as to any saving throws and skills it is proficient in. Its hit point maximum equals the hit point number in its stat block or four times your ranger level, whichever is higher. Like any creature, it can spend Hit Dice during a short rest to regain hit points.</p>
+			<p class="indent">The beast obeys your commands as best as it can. It takes its turn on your initiative. On your turn, you can verbally command the beast where to move (no action required by you). You can use your action to verbally command it to take the Attack, Dash, Disengage, or Help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action. If you don’t issue a command, the beast takes the Dodge action.</p>
+			<p class="indent">If you are incapacitated or absent, the beast acts on its own, focusing on protecting you and itself. The beast never requires your command to use its reaction, such as when making an opportunity attack.</p>
+			<p class="indent">While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.</p>
+			<p class="indent">If the beast dies, you can obtain a new companion by spending 8 hours magically bonding with a beast that isn’t hostile to you and that meets the requirements.</p>
+		</description>
+		<sheet>
+			<description>The beast obeys your commands as best as it can. It takes its turn on your initiative, though it doesn’t take an action unless you command it to. On your turn, you can verbally command the beast where to move. You can use your action to verbally command it to take the Attack, Dash, Disengage, Dodge, or Help action. Once you have the Extra Attack feature, you can make one weapon attack yourself when you command the beast to take the Attack action.
+			While traveling through your favored terrain with only the beast, you can move stealthily at a normal pace.
+			If the beast dies, you can obtain another one by spending 8 hours magically bonding with another beast that isn’t hostile to you, either the same type of beast as before or a different one.</description>
+		</sheet>
+		<rules>
+			<select type="Companion" name="Ranger’s Companion" supports="Beast,(Tiny||Small||Medium),(1/4||1/8||0)" />
+			<stat name="companion:ac" value="proficiency" />
+			<stat name="companion:attack" value="proficiency" />
+			<stat name="companion:damage" value="proficiency" />			
+			<stat name="additional:hp:max" value="level:ranger" />
+			<stat name="additional:hp:max" value="level:ranger" />
+			<stat name="additional:hp:max" value="level:ranger" />
+			<stat name="additional:hp:max" value="level:ranger" />
+			<stat name="companion:hp:max" value="additional:hp:max" bonus="base" />
+		</rules>
+	</element>
+	<element name="Exceptional Training" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_EXCEPTIONAL_TRAINING">
+		<description>
+			<p>Beginning at 7th level, on any of your turns when your beast companion doesn’t attack, you can use a bonus action to command the beast to take the Dash, Disengage, or Help action on its turn.</p>
+			<p class="indent">In addition, the beast’s attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>On any of your turns when your beast companion doesn’t attack, you can command the beast to take the Dash, Disengage, or Help action on its turn.
+			The beast’s attacks now count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.</description>
+		</sheet>
+	</element>
+	<element name="Bestial Fury" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_BESTIAL_FURY">
+		<description>
+			<p>Starting at 11th level, when you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.</p>
+		</description>
+		<sheet>
+			<description>When you command your beast companion to take the Attack action, the beast can make two attacks, or it can take the Multiattack action if it has that action.</description>
+		</sheet>
+	</element>
+	<element name="Share Spells" type="Archetype Feature" source="Homebrew" id="ID_LLUC_ARCHETYPEFEATURE_AWAKENED_SHARE_SPELLS">
+		<description>
+			<p>Beginning at 15th level, when you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</p>
+		</description>
+		<sheet>
+			<description>When you cast a spell targeting yourself, you can also affect your beast companion with the spell if the beast is within 30 feet of you.</description>
+		</sheet>
+	</element-->
+	
+<!-- Spells -->
+  <element name="Bane" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BANE">
+    <supports>Awakened</supports>
+    <description>
+      <p>Up to three creatures of your choice that you can see within range must make Charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a drop of blood</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Charm Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CHARM_PERSON">
+    <supports>Awakened</supports>
+    <description>
+      <p>You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st. The creatures must be within 30 feet of each other when you target them.</p>
+    </description>
+    <setters>
+      <set name="keywords">charm</set>
+      <set name="level">1</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Comprehend Languages" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMPREHEND_LANGUAGES">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text.  This spell doesn’t decode secret messages in a text or glyph, such as an arcane sigil, that isn’t part of a written language.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of soot and salt</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Detect Evil and Good" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_EVIL_AND_GOOD">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you know if there is an aberration, celestial, elemental, fey, fiend, or undead within 30 feet of you, as well as where the creature is located. Similarly, you know if there is a place of object within 30 feet of you that has been magically consecrated or desecrated. The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Detect Magic" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_MAGIC">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any. The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Disguise Self" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISGUISE_SELF">
+    <supports>Awakened</supports>
+    <description>
+      <p>You make yourself—including your clothing, armor, weapons, and other belongings on your person—look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can’t change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.</p>
+      <p class="indent">The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.</p>
+      <p class="indent">To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Expeditious Retreat" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_EXPEDITIOUS_RETREAT">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell allows you to move at an incredible pace. When you cast this spell, and then as a bonus action on each of your turns until the spell ends, you can take the Dash action.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="False Life" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FALSE_LIFE">
+    <supports>Awakened</supports>
+    <description>
+      <p>Bolstering yourself with a necromantic facsimile of life, you gain 1d4 + 4 temporary hit points for the duration.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small amount of alcohol or distilled spirits</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Identify" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_IDENTIFY">
+    <supports>Awakened</supports>
+    <description>
+      <p>You choose one object that you must touch throughout the casting of the spell. If it is a magic item or some other magic-imbued object, you learn its properties and how to use them, whether it requires attunement to use, and how many charges it has, if any. You learn whether any spells are affecting the item and what they are. If the item was created by a spell, you learn which spell created it. If you instead touch a creature throughout the casting, you learn what spells, if any, are currently affecting it.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Divination</set>
+      <set name="time">1 minute</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pearl worth at least 100 gp and an owl feather</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Mage Armor" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAGE_ARMOR">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a willing creature who isn’t wearing armor, and a protective magical force surrounds it until the spell ends. The target’s base AC becomes 13 + its Dexterity modifier. The spell ends it if the target dons armor or if you dismiss the spell as an action.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of cured leather</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Magic Missile" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAGIC_MISSILE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords">force</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Silent Image" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SILENT_IMAGE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 15-foot cube. The image appears at a spot within range and lasts for the duration. The image is purely visual; it isn’t accompanied by sound, smell, or other sensory effects.</p>
+      <p class="indent">You can use your action to cause the image to move to any spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking.</p>
+      <p class="indent">Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fleece</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Unseen Servant" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_UNSEEN_SERVANT">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell creates an invisible, mindless, shapeless, Medium force that performs simple tasks at your command until the spell ends. The servant springs into existence in an unoccupied space on the ground within range. It has AC 10, 1 hit point, and a Strength of 2, and it can’t attack. If it drops to 0 hit points, the spell ends.</p>
+	  <p class="indent">Once on each of your turns as a bonus action, you can mentally command the servant to move up to 15 feet and interact with an object. The servant can perform simple tasks that a human servant could do, such as fetching things, cleaning, mending, folding clothes, lighting fires, serving food, and pouring wine. Once you give the command, the servant performs the task to the best of its ability until it completes the task, then waits for your next command.</p>
+	  <p class="indent">If you command the servant to perform a task that would move it more than 60 feet away from you, the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">1</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a piece of string and a bit of wood</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Witch Bolt" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WITCH_BOLT">
+    <supports>Awakened</supports>
+    <description>
+      <p>A beam of crackling, blue energy lances out toward a creature within range, forming a sustained arc of lightning between you and the target. Make a ranged spell attack against that creature. On a hit, the target takes 1d12 lightning damage, and on each of your turns for the duration, you can use your action to deal 1d12 lightning damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it has total cover from you.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 2nd level or higher, the initial damage increases by 1d12 for each slot level above 1st.</p>
+    </description>
+    <setters>
+      <set name="keywords">lightning</set>
+      <set name="level">1</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a twig from a tree that has been struck by lightning</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Alter Self" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ALTER_SELF">
+    <supports>Awakened</supports>
+    <description>
+      <p>You assume a different form. When you cast the spell, choose one of the following options, the effects of which last for the duration of the spell. While the spell lasts, you can end one option as an action to gain the benefits of a different one.</p>
+      <p class="indent"><strong><em>Aquatic Adaptation.</em></strong> You adapt your body to an aquatic environment, sprouting gills, and growing webbing between your fingers. You can breathe underwater and gain a swimming speed equal to your walking speed.</p>
+      <p class="indent"><strong><em>Change Appearance.</em></strong> You transform your appearance. You decide what you look like, including your height, weight, facial features, sound of your voice, hair length, coloration, and distinguishing characteristics, if any. You can make yourself appear as a member of another race, though none of your statistics change. You also don’t appear as a creature of a different size than you, and your basic shape stays the same; if you’re bipedal, you can’t use this spell to become quadrupedal, for instance. At any time for the duration of the spell, you can use your action to change your appearance in this way again.</p>
+      <p class="indent"><strong><em>Natural Weapons.</em></strong> You grow claws, fangs, spines, horns, or a different natural weapon of your choice. Your unarmed strikes deal 1d6 bludgeoning, piercing, or slashing damage, as appropriate to the natural weapon you chose, and you are proficient with your unarmed strikes. Finally, the natural weapon is magic and you have a +1 bonus to the attack and damage rolls you make using it.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Blur" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLUR">
+    <supports>Awakened</supports>
+    <description>
+      <p>Your body becomes blurred, shifting and wavering to all who can see you. For the duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn’t rely on sight, as with blindsight, or can see through illusions, as with truesight.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Calm Emotions" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CALM_EMOTIONS">
+    <supports>Awakened</supports>
+    <description>
+      <p>You attempt to suppress strong emotions in a group of people. Each humanoid in a 20-foot-radius sphere centered on a point you choose within range must make a Charisma saving throw; a creature can choose to fail this saving throw if it wishes. If a creature fails its saving throw, choose one of the following two effects.</p>
+      <p class="indent">You can suppress any effect causing a target to be charmed or frightened. When this spell ends, any suppressed effect resumes, provided that its duration has not expired in the meantime.</p>
+      <p class="indent">Alternatively, you can make a target indifferent about creatures of your choice that it is hostile toward. This indifference ends if the target is attacked or harmed by a spell or if it witnesses any of its friends being harmed. When the spell ends, the creature becomes hostile again, unless the GM rules otherwise.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Darkvision" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DARKVISION">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a willing creature to grant it the ability to see in the dark. For the duration, that creature has darkvision out to a range of 60 feet.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">either a pinch of dried carrot or an agate</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Detect Thoughts" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DETECT_THOUGHTS">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn’t speak any language, the creature is unaffected.</p>
+      <p class="indent">You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature’s thoughts or attempt to probe deeper into the same creature’s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature’s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.</p>
+      <p class="indent">Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.</p>
+      <p class="indent">You can also use this spell to detect the presence of thinking creatures you can’t see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can’t detect a creature with an Intelligence of 3 or lower or one that doesn’t speak any language.</p>
+      <p class="indent">Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can’t see it, but it must still be within range.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a copper piece</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Hold Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLD_PERSON">
+    <supports>Awakened</supports>
+    <description>
+      <p>Choose a humanoid that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you can target on additional humanoid for each slot level above 2nd. The humanoids must be within 30 feet of each other when you target them.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small, straight piece of iron</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_INVISIBILITY">
+    <supports>Awakened</supports>
+    <description>
+      <p>A creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person. The spell ends for a target that attacks or casts a spell.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an eyelash encased in gum arabic</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Levitate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LEVITATE">
+    <supports>Awakened</supports>
+    <description>
+      <p>One creature or loose object of your choice that you can see within range rises vertically, up to 20 feet, and remains suspended there for the duration. The spell can levitate a target that weighs up to 500 pounds. An unwilling creature that succeeds on a Constitution saving throw is unaffected. The target can move only by pushing or pulling against a fixed object or surface within reach (such as a wall or a ceiling), which allows it to move as if it were climbing. You can change the target’s altitude by up to 20 feet in either direction on your turn. If you are the target, you can move up or down as part of your move. Otherwise, you can use your action to move the target, which must remain within the spell’s range. When the spell ends, the target floats gently to the ground if it is still aloft.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">either a small leather loop or a piece of golden wire bent into a cup shape with a long shank on one end</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Locate Object" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LOCATE_OBJECT">
+    <supports>Awakened</supports>
+    <description>
+      <p>Describe or name an object that is familiar to you. You sense the direction to the object’s location, as long as that object is within 1,000 feet of you. If the object is in motion, you know the direction of its movement. The spell can locate a specific object known to you, as long as you have seen it up close - within 30 feet - at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon. This spell can’t locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a forked twig</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Magic Weapon" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAGIC_WEAPON">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.  </p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 bonus action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Mirror Image" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MIRROR_IMAGE">
+    <supports>Awakened</supports>
+    <description>
+      <p>Three illusory duplicates of yourself appear in your space. Until the spell ends, the duplicates move with you and mimic your actions, shifting position so it’s impossible to track which image is real. You can use your action to dismiss the illusory duplicates. Each time a creature targets you with an attack during the spell’s duration, roll a d20 to determine whether the attack instead targets one of your duplicates. If you have three duplicates, you must roll a 6 or higher to change the attack’s target to a duplicate. With two duplicates, you must roll an 8 or higher. With one duplicate, you must roll an 11 or higher. A duplicate’s AC equals 10 + your Dexterity modifier. If an attack hits a duplicate, the duplicate is destroyed. A duplicate can be destroyed only by an attack that hits it. It ignores all other damage and effects. The spell ends when all three duplicates are destroyed. A creature is unaffected by this spell if it can’t see, if it relies on senses other than sight, such as blindsight, or if it can perceive illusions as false, as with truesight.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Phantasmal Force" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PHANTASMAL_FORCE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You craft an illusion that takes root in the mind of a creature that you can see within range. The target must make an Intelligence saving throw. On a failed save, you create a phantasmal object, creature, or other visible phenomenon of your choice that is no larger than a 10-foot cube and that is perceivable only to the target for the duration. This spell has no effect on undead or constructs. The phantasm includes sound, temperature, and other stimuli, also evident only to the creature. The target can use its action to examine the phantasm with an Intelligence (Investigation) check against your spell save DC. If the check succeeds, the target realizes that the phantasm is an illusion, and the spell ends. While a target is affected by the spell, the target treats the phantasm as if it were real. The target rationalizes any illogical outcomes from interacting with the phantasm. For example, a target attempting to walk across a phantasmal bridge that spans a chasm falls once it steps onto the bridge. If the target survives the fall, it still believes that the bridge exists and comes up with some other explanation for its fall—it was pushed, it slipped, or a strong wind might have knocked it off. An affected target is so convinced of the phantasm’s reality that it can even take damage from the illusion. A phantasm created to appear as a creature can attack the target. Similarly, a phantasm created to appear as fire, a pool of acid, or lava can burn the target. Each round on your turn, the phantasm can deal 1d6 psychic damage to the target if it is in the phantasm’s area or within 5 feet of the phantasm, provided that the illusion is of a creature or hazard that could logically deal damage, such as by attacking. The target perceives the damage as a type appropriate to the illusion.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">2</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fleece</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="See Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SEE_INVISIBILITY">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you see invisible creatures and objects as if they were visible, and you can see into the Ethereal Plane. Ethereal creatures and objects appear ghostly and translucent.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">A pinch of Talc and a small sprinkling of powdered silver</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Suggestion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SUGGESTION">
+    <supports>Awakened</supports>
+    <description>
+      <p>You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can’t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.</p>
+      <p class="indent">The target must make a Wisdom saving throw. On a failed save, it purses the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.</p>
+      <p class="indent">You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight five her warhorse to the first beggar she meets.</p>
+      <p class="indent">If the condition isn’t met before the spell expires, the activity isn’t preformed. If you or any of your companions damage the target, the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">2</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 8 hours</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a snake’s tongue and either a bit of honeycomb or a drop of sweet oil</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Animate Dead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ANIMATE_DEAD">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell creates an undead servant. Choose a pile of bones or a corpse of a Medium or Small humanoid within range. Your spell imbues the target with a foul mimicry of life, raising it as an undead creature. The target becomes a skeleton if you chose bones or a zombie if you chose a corpse (the DM has the creature’s game statistics).</p>
+      <p class="indent">On each of your turns, you can use a bonus action to mentally command any creature you made with this spell if the creature is within 60 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.</p>
+      <p class="indent">The creature is under your control for 24 hours, after which it stops obeying any command you’ve given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature again before the current 24-hour period ends. This use of the spell reasserts your control over up to four creatures you have animated with this spell, rather than animating a new one.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, you animate or reassert control over two additional undead creatures for each slot level above 3rd. Each of the creatures must come from a different corpse or pile of bones.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 minute</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a drop of blood, a piece of flesh, and a pinch of bone dust</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Bestow Curse" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BESTOW_CURSE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a creature, and that creature must succeed on a Wisdom saving throw or become cursed for the duration of the spell. When you cast this spell, choose the nature of the curse from the following options:</p>
+      <ul>
+        <li>Choose one ability score. While cursed, the target has disadvantage on ability checks and saving throws made with that ability score.</li>
+        <li>While cursed, the target has disadvantage on attack rolls against you.</li>
+        <li>While cursed, the target must make a Wisdom saving throw at the start of each of its turns. If it fails, it wastes its action that turn doing nothing.</li>
+        <li>While the target is cursed, your attacks and spells deal an extra 1d8 necrotic damage to the target.</li>
+      </ul>
+      <p>A remove curse spell ends this effect. At the DM’s option, you may choose an alternative curse effect, but it should be no more powerful than those described above. The DM has final say on such a curse’s effect.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn’t require concentration.</p>
+    </description>
+    <setters>
+      <set name="keywords">curse</set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Blink" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BLINK">
+    <supports>Awakened</supports>
+    <description>
+      <p>Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that rang, you appear in the nearest unoccupied space (chosen at random if more that one space is equally near). You can dismiss this spell as an action. While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can’t see anything more than 60 feet away.You can only affect and be affected by other creatures on the Ethereal Plane. Creature that aren’t there can’t perceive you or interact with you, unless they have the ability to do so.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 minute</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Clairvoyance" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CLAIRVOYANCE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can’t be attacked or otherwise interacted with. When you cast the spell, you choose seeing or hearing. You can use the chosen sense through the sensor as if you were in its space. As your action, you can switch between seeing and hearing. A creature that can see the sensor (such as a creature benefitting from see invisibility or truesight) sees a luminous, intangible orb about the size of your fist.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Divination</set>
+      <set name="time">10 minutes</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">1 mile</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for scrying</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Dispel Magic" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DISPEL_MAGIC">
+    <supports>Awakened</supports>
+    <description>
+      <p>Choose any creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of 4th level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s level. On a successful check, the spell ends.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell’s level is equal to or less than the level of the spell slot you used.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Fear" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FEAR">
+    <supports>Awakened</supports>
+    <description>
+      <p>You project a phantasmal image of a creature’s worst fears. Each creature in a 30-foot cone must succeed on a Wisdom saving throw or drop whatever it is holding and become frightened for the duration.</p>
+      <p class="indent">While frightened by this spell, a creature must take the Dash action and move away from you by the safest available route on each of its turns, unless there is nowhere to move. If the creature ends its turn in a location where it doesn’t have line of sight to you, the creature can make a Wisdom saving throw. On a successful save, the spell ends for that creature.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Self (30-foot cone)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a white feather or the heart of a hen</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Feign Death" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FEIGN_DEATH">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a willing creature and put it into a cataleptic state that is indistinguishable from death. For the spell’s duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target’s status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell’s effect, the disease and poison have no effect until the spell ends.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of graveyard dirt</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">true</set>
+    </setters>
+  </element>
+  <element name="Hypnotic Pattern" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HYPNOTIC_PATTERN">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create a twisting pattern of colors that weaves through the air inside a 30-foot cube within range. The pattern appears for a moment and vanishes. Each creature in the area who sees the pattern must make a Wisdom saving throw. On a failed save, the creature becomes charmed for the duration. While charmed by this spell, the creature is incapacitated and has a speed of 0. The spell ends for an affected creature if it takes any damage or if someone else uses an action to shake the creature out of its stupor.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a glowing stick of incense or a crystal vial filled with phosphorescent material</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Major Image" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MAJOR_IMAGE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create the image of an object, a creature, or some other visible phenomenon that is no larger than a 20-foot cube. The image appears at a spot that you can see within range and lasts for the duration. It seems completely real, including sounds, smells, and temperature appropriate to the thing depicted. You can’t create sufficient heat or cold to cause damage, a sound loud enough to deal thunder damage or deafen a creature, or a smell that might sicken a creature (like a troglodyte’s stench). As long as you are within range of the illusion, you can use your action to cause the image to move to any other spot within range. As the image changes location, you can alter its appearance so that its movements appear natural for the image. For example, if you create an image of a creature and move it, you can alter the image so that it appears to be walking. Similarly, you can cause the illusion to make different sounds at different times, even making it carry on a conversation, for example. Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and its other sensory qualities become faint to the creature.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, the spell lasts until dispelled, without requiring your concentration.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fleece</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Nondetection" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_NONDETECTION">
+    <supports>Awakened</supports>
+    <description>
+      <p>For the duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">8 hours</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Revivify" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REVIVIFY">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can’t return to life a creature that has died of old age, nor can it restore any missing body parts.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">diamonds worth 300 gp, which the spell consumes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Speak with Dead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPEAK_WITH_DEAD">
+    <supports>Awakened</supports>
+    <description>
+      <p>You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can’t be undead. The spell fails if the corpse was the target of this spell within the last 10 days. Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn’t return the creature’s soul to its body, only its animating spirit. Thus, the corpse can’t learn new information, doesn’t comprehend anything that has happened since it died, and can’t speculate about future events.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Necromancy</set>
+      <set name="time">1 action</set>
+      <set name="duration">10 minutes</set>
+      <set name="range">10 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">burning incense</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Spirit Guardians" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_SPIRIT_GUARDIANS">
+    <supports>Awakened</supports>
+    <description>
+      <p>You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish. When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature’s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 3rd.</p>
+    </description>
+    <setters>
+      <set name="keywords">radiant, necrotic</set>
+      <set name="level">3</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">Self (15-foot-radius)</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a holy symbol</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Tongues" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TONGUES">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">3</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small clay model of a ziggurat</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Arcane Eye" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_ARCANE_EYE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You create an invisible, magical eye within range that hovers in the air for the duration.</p>
+      <p class="indent">You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.</p>
+      <p class="indent">As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can’t enter another plane of existence. A solid barrier blocks the eye’s movement, but the eye can pass through an opening as small as 1 inch in diameter.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of bat fur</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Banishment" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_BANISHMENT">
+    <supports>Awakened</supports>
+    <description>
+      <p>You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished. If the target is native to the plane of existence you’re on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. If the target is native to a different plane of existence that the one you’re on, the target is banished with a faint popping noise, returning to its home plane. If the spell ends before 1 minute has passed, the target reappears in the space it left or in the nearest unoccupied space if that space is occupied. Otherwise, the target doesn’t return.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, you can target one additional creature for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an item distasteful to the target</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Compulsion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_COMPULSION">
+    <supports>Awakened</supports>
+    <description>
+      <p>Creatures of your choice that you can see within range and that can hear you must make a Wisdom saving throw. A target automatically succeeds on this saving throw if it can’t be charmed. On a failed save, a target is affected by this spell. Until the spell ends, you can use a bonus action on each of your turns to designate a direction that is horizontal to you. Each affected target must use as much of its movement as possible to move in that direction on its next turn. It can take its action before it moves. After moving in this way, it can make another Wisdom saving throw to try to end the effect. A target isn’t compelled to move into an obviously deadly hazard, such as a fire pit, but it will provoke opportunity attacks to move in the designated direction.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Confusion" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_CONFUSION">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell assaults and twists creatures’ minds, spawning delusions and provoking uncontrolled actions. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.</p>
+      <p class="indent">An affected target can’t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.</p>
+      <table>
+        <tr><td>d10</td><td>Behavior</td></tr>
+        <tr><td>1</td><td>The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn’t take an action this turn.</td></tr>
+        <tr><td>2-6</td><td>The creature doesn’t move or take actions this turn.</td></tr>
+        <tr><td>7-8</td><td>The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn.</td></tr>
+        <tr><td>9-10</td><td>The creature can act and move normally.</td></tr>
+      </table>
+      <p class="indent">At the end of its turns, an affected target can make a Wisdom saving throw. It it succeeds, this effect ends for that target.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">three nut shells</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Dimension Door" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DIMENSION_DOOR">
+    <supports>Awakened</supports>
+    <description>
+      <p>You teleport yourself from your current location to any other spot within range. You arrive at exactly the spot desired. It can be a place you can see, one you can visualize, or one you can describe by stating distance and direction, such as “200 feet straight downward” or “upward to the northwest at a 45-degree angle, 300 feet.” You can bring along objects as long as their weight doesn’t exceed what you can carry. You can also bring one willing creature of your size or smaller who is carrying gear up to its carrying capacity. The creature must be within 5 feet of you when you cast this spell. If you would arrive in a place already occupied by an object or a creature, you and any creature traveling with you each take 4d6 force damage, and the spell fails to teleport you.</p>
+    </description>
+    <setters>
+      <set name="keywords">teleport</set>
+      <set name="level">4</set>
+      <set name="school">Conjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">500 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Freedom of Movement" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_FREEDOM_OF_MOVEMENT">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a willing creature. For the duration, the target’s movement is unaffected by difficult terrain, and spells and other magical effects can neither reduce the target’s speed nor cause the target to be paralyzed or restrained. The target can also spend 5 feet of movement to automatically escape from nonmagical restraints, such as manacles or a creature that has it grappled. Finally, being underwater imposes no penalties on the target’s movement or attacks.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Abjuration</set>
+      <set name="time">1 action</set>
+      <set name="duration">1 hour</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a leather strap, bound around the arm or a similar appendage</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Greater Invisibility" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GREATER_INVISIBILITY">
+    <supports>Awakened</supports>
+    <description>
+      <p>You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Hallucinatory Terrain" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HALLUCINATORY_TERRAIN">
+    <supports>Awakened</supports>
+    <description>
+      <p>You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren’t changed in appearance. The tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn’t obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">10 minutes</set>
+      <set name="duration">24 hours</set>
+      <set name="range">300 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a stone, a twig, and a bit of green plant</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Locate Creature" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_LOCATE_CREATURE">
+    <supports>Awakened</supports>
+    <description>
+      <p>Describe or name a creature that is familiar to you. You sense the direction to the creature’s location, as long as that creature is within 1,000 feet of you. If the creature is moving, you know the direction of its movement. The spell can locate a specific creature known to you, or the nearest creature of a specific kind (such as a human or a unicorn), so long as you have seen such a creature up close - within 30 feet - at least once. If the creature you described or named is in a different form, such as being under the effects of a polymorph spell, this spell doesn’t locate the creature. This spell can’t locate a creature if running water at least 10 feet wide blocks a direct path between you and the creature.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">4</set>
+      <set name="school">Divination</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a bit of fur from a bloodhound</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Phantasmal Killer" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_PHANTASMAL_KILLER">
+    <supports>Awakened</supports>
+    <description>
+      <p>You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target’s turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">4</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Awaken" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_AWAKEN">
+    <supports>Awakened</supports>
+    <description>
+      <p>After spending the casting time tracing magical pathways within a precious gemstone, you touch a huge or smaller beast or plant. The target must have either no Intelligence score or an Intelligence of 3 or less. The target gains an Intelligence of 10. The target also gains the ability to speak one language you know. If the target is a plant, it gains the ability to move its limbs, roots, vines, creepers, and so forth, and it gains senses similar to a human’s. Your DM chooses statistics appropriate for the awakened plant, such as the statistics for the awakened shrub or the awakened tree.</p>
+      <p class="indent">The awakened beast or plant is charmed by you for 30 days or until you and your companions do anything harmful to it. When the charmed condition ends, the awakened creature chooses whether to remain friendly to you, based on how you treated it while it was charmed.</p>
+    </description>
+    <setters>
+      <set name="keywords">charm</set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">8 hours</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">an agate worth at least 1,000 gp, which the spell consumes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Dominate Person" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DOMINATE_PERSON">
+    <supports>Awakened</supports>
+    <description>
+      <p>You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be charmed by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw. While the target is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability. You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time you can also cause the creature to use a reaction, but this requires you to use your own reaction as well. Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a 6th-level spell slot, the duration is concentration, up to 10 minutes. When you use a 7th-level spell slot, the duration is concentration, up to 1 hour. When you use a spell slot of 8th level or higher, the duration is concentration, up to 8 hours.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Dream" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_DREAM">
+    <supports>Awakened</supports>
+    <description>
+      <p>This spell shapes a creature’s dreams. Choose a creature known to you as the target of this spell. The target must be on the same plane of existence as you. Creatures that don’t sleep, such as elves, can’t be contacted by this spell. You, or a willing creature you touch, enters a trance state, acting as a messenger. While in the trance, the messenger is aware of his or her surroundings, but can’t take actions or move.</p>
+      <p class="indent">If the target is asleep, the messenger appears in the target’s dreams and can converse with the target as long as it remains asleep, through the duration of the spell. The messenger can also shape the environment of the dream, creating landscapes, objects, and other images. The messenger can emerge from the trance at any time, ending the effect of the spell early. The target recalls the dream perfectly upon waking. If the target is awake when you cast the spell, the messenger knows it, and can either end the trance (and the spell) or wait for the target to fall asleep, at which point the messenger appears in the target’s dreams.</p> 
+      <p class="indent">You can make the messenger appear monstrous and terrifying to the target. If you do, the messenger can deliver a message of no more than ten words and then the target must make a Wisdom saving throw. On a failed save, echoes of the phantasmal monstrosity spawn a nightmare that lasts the duration of the target’s sleep and prevents the target from gaining any benefit from that rest. In addition, when the target wakes up, it takes 3d6 psychic damage.</p> 
+      <p class="indent">If you have a body part, lock of hair, clipping from a nail, or similar portion of the target’s body, the target makes its saving throw with disadvantage.</p>
+    </description>
+    <setters>
+      <set name="keywords">psychic</set>
+      <set name="level">5</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 minute</set>
+      <set name="duration">8 hours</set>
+      <set name="range">Special</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a handful of sand, a dab of ink, and a writing quill plucked from a sleeping bird</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Geas" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_GEAS">
+    <supports>Awakened</supports>
+    <description>
+      <p>You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can’t understand you is unaffected by the spell. You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends. You can end the spell early by using an action to dismiss it. A remove curse, greater restoration, or wish spell also ends it.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 7th or 8th level, the duration is 1 year. When you cast this spell using a spell slot of 9th level the spell lasts until it is ended by one of the spells mentioned above.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 minute</set>
+      <set name="duration">30 days</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">false</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Hold Monster" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_HOLD_MONSTER">
+    <supports>Awakened</supports>
+    <description>
+      <p>Choose a creature that you can see within range. The target must succeed on a Wisdom saving throw or be paralyzed for the duration. This spell has no effect on undead. At the end of each of its turns, the target can make another Wisdom saving throw. On a success, the spell ends on the target.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> When you cast this spell using a spell slot of 6th level or higher, you can target on additional creature for each slot level above 5th. The creatures must be within 30 feet of each other when you target them.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">90 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a small, straight piece of iron</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Mislead" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MISLEAD">
+    <supports>Awakened</supports>
+    <description>
+      <p>You become invisible at the same time that an illusory double of you appears where you are standing. The double lasts for the duration, but the invisibility ends if you attack or cast a spell. You can use your action to move your illusory double up to twice your speed and make it gesture, speak, and behave in whatever way you choose. You can see through its eyes and hear through its ears as if you were located where it is. On each of your turns as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are blinded and deafened in regard to your own surroundings.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Illusion</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 hour</set>
+      <set name="range">Self</set>
+      <set name="hasVerbalComponent">false</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Modify Memory" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_MODIFY_MEMORY">
+    <supports>Awakened</supports>
+    <description>
+      <p>You attempt to reshape another creature’s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target’s memories are modified.</p>
+      <p class="indent">While this charm lasts, you can affect the target’s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.</p>
+      <p class="indent">You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature’s memory isn’t altered. Otherwise, the modified memories take hold when the spell ends.</p>
+      <p class="indent">A modified memory doesn’t necessarily affect how a creature behaves, particularly if the memory contradicts the creature’s natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.</p>
+      <p class="indent">A remove curse or greater restoration spell cast on the target restores the creature’s true memory.</p>
+      <p class="indent"><b><i>At Higher Levels.</i></b> If you cast this spell using a spell slot of 6th level or higher, you can alter the target’s memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature’s past (9th level).</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Enchantment</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 1 minute</set>
+      <set name="range">30 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Reincarnate" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_REINCARNATE">
+    <supports>Awakened</supports>
+    <description>
+      <p>You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target’s soul isn’t free or willing to do so, the spell fails. The magic fashions a new body for the creature to inhabit, which likely causes the creature’s race to change. The DM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the DM chooses a form.</p>
+		<table>
+        <thead>
+          <tr><td>d100</td><td>Race</td></tr>
+        </thead>
+        <tr><td>01-04</td><td>Dragonborn</td></tr>
+        <tr><td>05-13</td><td>Dwarf, hill</td></tr>
+        <tr><td>14-21</td><td>Dwarf, mountain</td></tr>
+        <tr><td>22-25</td><td>Elf, dark</td></tr>
+        <tr><td>26-34</td><td>Elf, high</td></tr>
+        <tr><td>35-42</td><td>Elf, wood</td></tr>
+        <tr><td>43-46</td><td>Gnome, forest</td></tr>
+        <tr><td>47-52</td><td>Gnome, rock</td></tr>
+        <tr><td>53-56</td><td>Half-elf</td></tr>
+        <tr><td>57-60</td><td>Half-orc</td></tr>
+        <tr><td>61-68</td><td>Halfling, lightfoot</td></tr>
+        <tr><td>69-76</td><td>Halfling, stout</td></tr>
+        <tr><td>77-96</td><td>Human</td></tr>
+        <tr><td>97-00</td><td>Tiefling</td></tr>
+      </table>	   
+	   <p>The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 hour</set>
+      <set name="duration">Instantaneous</set>
+      <set name="range">Touch</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">rare oils and unguents worth at least 1,000 gp, which the spell consumes</set>
+      <set name="isConcentration">false</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Telekinesis" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_TELEKINESIS">
+    <supports>Awakened</supports>
+    <description>
+      <p>You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell, and as your action each round for the duration, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round, or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.</p>
+      <p class="indent"><strong><em>Creature.</em></strong> You can try to move a Huge or smaller creature. Make an ability check with your spellcasting ability contested by the creature’s Strength check. If you win the contest, you move the creature up to 30 feet in any direction, including upward but not beyond the range of this spell. Until the end of your next turn, the creature is restrained in your telekinetic grip. A creature lifted upward is suspended in mid-air.</p>
+      <p class="indent">On subsequent rounds, you can use your action to attempt to maintain your telekinetic grip on the creature by repeating the contest.</p>
+      <p class="indent"><strong><em>Object.</em></strong> You can try to move an object that weighs up to 1,000 pounds. If the object isn’t being worn or carried, you automatically move it up to 30 feet in any direction, but not beyond the range of this spell.</p>
+      <p class="indent">If the object is worn or carried by a creature, you must make an ability check with your spellcasting ability contested by that creature’s Strength check. If you succeed, you pull the object away from that creature and can move it up to 30 feet in any direction but not beyond the range of this spell.</p>
+      <p class="indent">You can exert fine control on objects with your telekinetic grip, such as manipulating a simple tool, opening a door or a container, stowing or retrieving an item from an open container, or pouring the contents from a vial.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Transmutation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">60 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">false</set>
+      <set name="materialComponent" />
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+  <element name="Wall of Force" type="Spell" source="Player’s Handbook" id="ID_PHB_SPELL_WALL_OF_FORCE">
+    <supports>Awakened</supports>
+    <description>
+      <p>An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature’s space when it appears, the creature is pushed to one side of the wall (your choice which side).</p>
+	  <p class="indent">Nothing can physically pass through the wall. It is immune to all damage and can’t be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.</p>
+    </description>
+    <setters>
+      <set name="keywords"></set>
+      <set name="level">5</set>
+      <set name="school">Evocation</set>
+      <set name="time">1 action</set>
+      <set name="duration">Concentration, up to 10 minutes</set>
+      <set name="range">120 feet</set>
+      <set name="hasVerbalComponent">true</set>
+      <set name="hasSomaticComponent">true</set>
+      <set name="hasMaterialComponent">true</set>
+      <set name="materialComponent">a pinch of powder made by crushing a clear gemstone</set>
+      <set name="isConcentration">true</set>
+      <set name="isRitual">false</set>
+    </setters>
+  </element>
+</elements>

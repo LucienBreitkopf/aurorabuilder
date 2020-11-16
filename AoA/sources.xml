@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<update version="0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/LucienBreitkopf/aurorabuilder/master/source.xml" />
+		</update>
+	</info>
+	<element name="Age of Adventurers" type="Source" source="Core" id="ID_AOA_SOURCE_DISCORD">
+		<description>
+			<![CDATA[<p><strong>Age of Adventurers Discord Server</p>]]>
+		</description>
+		<setters>
+			<set name="abbreviation">AOA</set>
+			<set name="url">https://discord.gg/VfNyNaS9hq</set>
+			<set name="image">https://cdn.discordapp.com/attachments/733145717144813581/753040699087257610/dnd_banner.png</set>
+			<set name="author" abbreviation="AOA" url="https://discord.gg/VfNyNaS9hq">Age of Adventuerers</set>
+			<set name="official">false</set>
+			<set name="release">20201116</set>
+		</setters>
+	</element>
+</elements>

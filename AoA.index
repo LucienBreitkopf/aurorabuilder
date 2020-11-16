@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<info>
+		<name>Age of Adventurers</name>
+		<description>Index for the Age of Adventurers Westmarch server.</description>
+		<author>LazyLucien</author>
+		<update version="0.1">
+			<file name="AoA.index" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO.index" />
+		</update>
+	</info>
+	<files>	
+		<file name="source.xml" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO/source.xml" />
+		
+		<!-- classes -->
+		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO/classes/class-awakened.xml" />
+	</files>
+</index>

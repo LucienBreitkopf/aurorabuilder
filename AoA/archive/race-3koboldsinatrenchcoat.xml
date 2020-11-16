@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>3 Kobolds in a Trench coat</name>
+		<update version="0.0.1">
+		<file name="race-3koboldsinatrenchcoat.xml" url="https://raw.githubusercontent.com/MaxChillax/3-kobolds/master/no" />
+		</update>
+	</info>
+	<element name="3 Kobolds in a Trench coat" type="Race" source="Homebrew" id="ID__RACE_3KOBOLDSINATRENCHCOAT">
+    <description>
+        <p class="flavor">Kobolds are often dismissed as cowardly, foolish, and weak, that's why some decide to pile up and pass themselves off as bigger. The Kobolds may have the same class or have a mixture of classes. They have even taught themselves how to deceive others into thinking they aren't 3 kobolds in a trench coat .</p>
+        <h4>3 KOBOLDs IN A TRENCH COAT TRAITS</h4>
+        <p>Your 3 kobolds in a trench coat character has the following racial traits.</p>
+        <p>
+        <span class="feature">Ability Score Increase.</span>Your Dexterity score increases by 1, and your Strength score is reduced by 2.<br/>
+        <span class="feature">Age.</span>Kobolds reach adulthood at age 6 and can live up to 120 years but rarely do so.<br/>
+        <span class="feature">Alignment.</span>Kobolds are fundamentally selfish, making them evil, but their reliance on the strength of their group makes them trend toward law.<br/>
+        <span class="feature">Size.</span>Kobolds are between 2 and 3 feet tall, together they are 5 to 6 feet tall. Your size is Medium.<br/>
+        <span class="feature">Speed.</span>Your base walking speed is 30 feet.<br/>
+        <span class="feature">Darkvision.</span>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.<br/>
+        <span class="feature">Superior Skills</span>You gain proficency on deception and slight of hand checks, no one will find out your secrets.<br/>
+        <span class="feature">Pack Tactics.</span>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated. This does NOT includethe other kobolds in the coat<br/>
+        <span class="feature">Sunlight Sensitivity.</span>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.<br/>
+        <span class="feature">Languages.</span>You can speak, read, and write Common and Draconic.<br/>
+        </p>
+    </description>
+    <sheet display="false"/>
+    <setters>
+      <!-- names taken from online generator to have at least a few names in here -->
+      <set name="names" type="custom">Ken, Tiv, Datt, Zeks, Kokri, Etla, Dudri, Ovno, Irpu, Dakbi, Sum, Kigs, Gir, Voss, Uble, Rurku, Zoglo, Agge, Snarpa, Miplu</set>
+      <set name="names-format">{{custom}}</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="1" />
+      <stat name="strength" value="-2" />
+      <stat name="innate speed" value="30" bonus="base" />
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Vision" id="ID_VISION_DARKVISION" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <grant type="Language" id="ID_LANGUAGE_DRACONIC" />
+      <grant type="Racial Trait" id="ID_RACIAL_TRAIT_SUPERIOR_SKILLS" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_PAC_TACTICS" />
+      <grant type="Racial Trait" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_SUNLIGHT_SENSITIVITY" />
+	  <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION"/>
+	<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SLEIGHTOFHAND" />
+    </rules>
+  </element>  
+  <element name="Superior Skills" type="Racial Trait" source="Homebrew" id="ID_RACIAL_TRAIT_SUPERIOR_SKILLS">
+    <description>
+      <p>You gain proficency on deception and slight of hand checks, no one will find out your secrets.</p>
+    </description>
+  </element>
+  <element name="Pack Tactics" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_PAC_TACTICS">
+    <description>
+      <p>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</p>
+    </description>
+    <sheet>
+      <description>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</description>
+    </sheet>
+  </element>
+  <element name="Sunlight Sensitivity" type="Racial Trait" source="Volo’s Guide to Monsters" id="ID_WOTC_VGTM_RACIAL_TRAIT_KOBOLD_SUNLIGHT_SENSITIVITY">
+    <description>
+      <p>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</p>
+    </description>
+    <sheet>
+      <description>You have disadvantage on attack rolls and on Perception checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</description>
+    </sheet>
+  </element>
+</elements>

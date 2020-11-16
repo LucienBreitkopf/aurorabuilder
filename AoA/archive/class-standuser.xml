@@ -1,0 +1,781 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Stand User</name>
+		<update version="0.0.5">
+			<file name="class-standuser.xml" url="https://raw.githubusercontent.com/MaxChillax/Stand-User-Aurora-Builder/master/Stand%20User" />
+		</update>
+	</info>
+
+	<element name="Stand User" type="Class" source="Homebrew" id="ID_CLASS_STANDUSER">
+		<description>
+			<p> A man stands, tall and proud. Before him, a monster of unimaginable power, whose evil nature is concealed by his beautiful appearance. The man takes a deep breath, and silence fills the air. Then, there is a shout. "Rise Against!" Before the minute is up, the vampire falls, and the man mutters in his annoyance with the mess.</p>
+			<p class="indent">A child runs through the busy streets of Waterdeep, knocking over pedestrians in his haste. From the perspective of all others, there is nothing behind him. But the child knows, the child sees. A hound with four heads, each flaming and golden, chases after him. The beast's mater is nowhere nearby, and the child knows he must figure out who the user is before it's too late. The child screams "Getaway!", and a giant like creature appears, carrying the child on its shoulder.</p>
+			<p class="indent">A woman walks into the bank. Everyone's eyes turn to her, yet they don't know why. No one can turn their head away from the woman, whose smirk and laugh almost distracts from the noise behind everyone. Three figures, each with masks, walk out of the vault, and the woman dashes away with them, shouting "Dramaturgy!"</p>
+			<p class="indent">As different as these people are, they share a single common trait. They are Stand Users, those who draw upon the power of their spirit to summon Stands, physical manifestations of their psyche.</p>
+			<h4>DIVERSE ORIGIN</h4>
+			<p>Anyone can be a Stand User, provided they have the mental fortitude to summon their psyche. A Stand can first manifest any number of ways, and not even all are properly known. Certain items can draw out the spiritual energy and give those that come into contact access to their Stand. Some awaken to their power when they need it most, in a moment of high tension. Some are simply born with their Stand and have almost always had them by their side. And, rarely enough, an entire lineage of Stand Users can develop, the bonds of fate and blood carrying the spiritual energy throughout the entire line.</p>
+			<h4>SINNERS, SAINTS, AND WERIDOS</h4>
+			<p>One can say with almost scientific certainty that a Stand User must have a strong force of will. Along with that, with as much certainty, one can say that Stand Users' have a tendency to be an odd bunch. In their ranks stands the greatest of heroes, and most monstrous of villains, and the most eccentric souls one could ever meet. Because of this, outsiders have a mixed opinion of Stand Users.</p>
+			<p class="indent">One could slaughter your family, another come and defeat the first, and a third coming only to play rock-paper-scissors with the second. Though most aren't aware of Stands at all, save for a rare few, those that do tend to be initially distrustful of Stand Users.</p>
+			<h4>BOUND TO FATE</h4>
+			<p>Fate is often an important concept for many Stand Users. Some believe that fate guides them on their proper path, while others try to avoid or overthrow it. Some even still will seek the power to manipulate fate to their advantage. Fate is also believed to be the reason why Stand Users meet.</p>
+			<p class="indent">Like gravity, destiny pulls Stand Users towards each other, seemingly for no rhyme nor reason. If a village has even a single Stand User in it, it will inevitably have two. Then three, then four, and so on. Stand Users will either befriend or clash with each other, with very little in between.</p>
+			<h4>STAND NAMES</h4>
+			<p>Each Stand has a unique name, given to it by its User. Stand Users have various naming conventions for how to title their Stand. Some choose the names of gods, others cards, and many, many more.</p>
+			<p class="indent">The most common, however, is to name a Stand after a song or band of bards. Few know how this became the most common, but the general theory involves a vampire Stand User with the Stand named "Prince".</p>
+			<h4>CREATING A STAND USER</h4>
+			<p>There are several things to consider when making a Stand User. How did your Stand awake? Did an item pull the power out of you? Were you sick for a time as a child, then noticed the Stand manifesting? Also, consider the other Stand Users you've met. Are they friendly? Dangerous? Perhaps you start your adventure trying to hunt down a particularly troublesome User whom you have a grudge against. Then there is the name and appearance of your Stand itself. Does the name correlate to its powers, or is it simply ornamental? Is it humanoid, or some kind of beast? Does it even have a proper physical form?</p>
+			<p class="indent">Work with your DM to determine these things, as well as the general role and knowledge of Stand Users in your game.</p>
+			<h3>CLASS FEATURES</h3>
+			<p>As a Stand User, you gain the following class features.</p>
+            <h5>HIT POINTS</h5>
+            <ul class="unstyled">
+                <li><strong>Hit Dice:</strong> 1d8 per Stand User level</li>
+                <li><strong>Hit Points at 1st Level:</strong> 8 + your Constitution modifier</li>
+                <li><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per Stand User level after 1st</li>
+            </ul>
+            <h5>PROFICIENCIES</h5>
+            <ul class="unstyled mb">
+                <li><strong>Armor:</strong> Light Armor</li>
+                <li><strong>Weapons:</strong> Simple weapons, martial weapons</li>
+                <li><strong>Tools:</strong> Any one tool and one gaming set</li>
+            </ul>
+            <ul class="unstyled">
+                <li><strong>Saving Throws:</strong> Charisma, Constitution</li>
+                <li><strong>Skills:</strong> Choose two skills from Athletics, Arcana, Deception, Intimidation, Investigation, Persuasion, Sleight of Hand, Survival</li>
+            </ul>
+			<h5>EQUIPMENT</h5>
+			<p>You start with the following equipment, in addition to the equipment granted by your background:</p>
+			<ul>
+				<li><i>(a)</i> a longsword or <i>(b)</i> any martial weapon</li>
+				<li><i>(a)</i> a light crossbow and 20 bolts or <i>(b)</i> any simple weapon</li>
+				<li><i>(a)</i> a dungeoneer’s pack or <i>(b)</i> an explorer’s pack</li>
+				<li> two daggers and a set of stylish clothing</li>
+			</ul>
+			<h5 class="caption">THE STAND USER</h5>
+			<table class="class-features">
+				<thead>
+					<tr><td class="col-5">Level</td><td class="left">Features</td><td>Growth</td><td>Stand Power</td></tr>
+				</thead>
+				<tr><td> 1st</td><td class="left">Stand, Stand Type, Unarmored Defense</td><td>-</td><td>-</td></tr>
+				<tr><td> 2nd</td><td class="left">Growth, Stand Power</td><td>1</td><td>2</td></tr>
+				<tr><td> 3rd</td><td class="left">Type Feature</td><td>1</td><td>3</td></tr>
+				<tr><td> 4th</td><td class="left">Ability Score Improvement</td><td>1</td><td>4</td></tr>
+				<tr><td> 5th</td><td class="left">Extra Attack</td><td>2</td><td>5</td></tr>
+				<tr><td> 6th</td><td class="left">Type Feature</td><td>2</td><td>6</td></tr>
+				<tr><td> 7th</td><td class="left">Enduring Resolve</td><td>2</td><td>7</td></tr>
+				<tr><td> 8th</td><td class="left">Ability Score Improvement</td><td>3</td><td>8</td></tr>
+				<tr><td> 9th</td><td class="left">Menacing Aura</td><td>3</td><td>9</td></tr>
+				<tr><td>10th</td><td class="left">Stand Proud</td><td>3</td><td>10</td></tr>
+				<tr><td>11th</td><td class="left">Type Feature</td><td>4</td><td>11</td></tr>
+				<tr><td>12th</td><td class="left">Ability Score Improvement</td><td>4</td><td>12</td></tr>
+				<tr><td>13th</td><td class="left">Trickster's Resolution</td><td>4</td><td>13</td></tr>
+				<tr><td>14th</td><td class="left">Type Feature</td><td>5</td><td>14</td></tr>
+				<tr><td>15th</td><td class="left">Unyeilding Resolve</td><td>5</td><td>15</td></tr>
+				<tr><td>16th</td><td class="left">Ability Score Improvement</td><td>5</td><td>16</td></tr>
+				<tr><td>17th</td><td class="left">Type Feature</td><td>6</td><td>17</td></tr>
+				<tr><td>18th</td><td class="left">Menacing Aura Improvement</td><td>6</td><td>18</td></tr>
+				<tr><td>19th</td><td class="left">Ability Score Improvement</td><td>6</td><td>19</td></tr>
+				<tr><td>20th</td><td class="left">A Quiet Requiem Plays</td><td>7</td><td>20</td></tr>
+			</table>
+			<div element="ID_CLASS_FEATURE_STAND" />
+			<div element="ID_CLASS_FEATURE_STANDTYPE" />
+			<div element="ID_CLASS_FEATURE_UNARMOREDDEFENSE" />
+			<div element="ID_CLASS_FEATURE_GROWTH" />
+			<div element="ID_CLASS_FEATURE_STANDPOWER" />
+			<div element="ID_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_STANDUSER" />
+			<div element="ID_CLASS_FEATURE_EXTRAATTACK" />
+			<div element="ID_CLASS_FEATURE_ENDURINGRESOLVE" />
+			<div element="ID_CLASS_FEATURE_MENACINGAURA" />
+			<div element="ID_CLASS_FEATURE_STANDPROUD" />
+			<div element="ID_CLASS_FEATURE_TRICKSTERSRESOLUTION" />
+			<div element="ID_CLASS_FEATURE_UNYIELDINGRESOLVE" />
+			<div element="ID_CLASS_FEATURE_AQUIETREQUIEMPLAYS" />
+		</description>
+		<sheet display="false">
+			<description>A weilder of a stand and holder of emence power.</description>
+		</sheet>
+		<setters>
+			<set name="short">A weilder of a stand and holder of emence power.</set>
+			<set name="hd">d8</set>
+		</setters>
+		<rules>
+ 			<grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" requirements="!ID_MULTICLASS_STANDUSER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" requirements="!ID_MULTICLASS_STANDUSER"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CONSTITUTION" requirements="!ID_MULTICLASS_STANDUSER"/>
+			<select type="Proficiency" name="Skill Proficiency (Stand User)" supports="ID_PROFICIENCY_SKILL_ATHLETICS|ID_PROFICIENCY_SKILL_ARCANA|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_INVESTIGATION|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_SURVIVAL" number="2" requirements="!ID_MULTICLASS_STANDUSER"/>
+			<select type="Proficiency" name="Tool or Gaming Set" supports="Artisan tools||Gaming Set"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_STAND" level="1"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_STANDTYPE" level="1"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_UNARMOREDDEFENSE" level="1"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_GROWTH" level="2"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_STANDPOWER" level="2"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_STANDUSER" level="4"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_EXTRAATTACK" level="5"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_ENDURINGRESOLVE" level="7"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_MENACINGAURA" level="9"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_STANDPROUD" level="10"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_TRICKSTERSRESOLUTION" level="13"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_UNYIELDINGRESOLVE" level="15"/>
+			<grant type="Class Feature" id="ID_CLASS_FEATURE_AQUIETREQUIEMPLAYS" level="20"/>
+		</rules>
+		<multiclass id="ID_MULTICLASS_STANDUSER">
+			<prerequisite>Charisma 13 and Constitution 13</prerequisite>
+			<requirements>[cha:13],[con:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Light armor, simple weapons, a tool or gaming set</set>
+			</setters>
+			<rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+			</rules>
+		</multiclass>
+	</element>
+	<element name="Stand" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_STAND">
+		<description>
+			<p>At 1st level, you learn to call out your psyche as a Stand! When you roll for initiative or as a bonus action, you can send out your Stand. It has the following traits:</p>
+			<p class="indent">Your Stand stays within a certain range of you, determined by its type. It is incorporeal, able to pass through solid objects, but can interact with the world. Your Stand can move anywhere within its range on your turn.</p>
+			<p class="indent">When summoned, your Stand can have a duplicate of one of your weapons, or some manifestation analogous to one (ex. horns, launcher, fists, etc). You can take actions and make attacks through your Stand, and attack performed through your Stand deal force damage, using your Stand attack modifier (see below). You also add your charisma modifier to the damage, rather than your strength or dexterity. Actions your Stand takes that require an ability, such as a grapple or shove check, use your charisma rather than the original ability.</p>
+			<p class="indent">Your Stand cannot be hit by normal attacks or spells, and can only be damaged by other Stands. Damage dealt to the Stand gets mirrored onto you (ex. your Stand loses a hand, you lose one of yours).</p>
+			<p class="indent">Your Stand can only be seen by you, other Stand Users, and creatures with Truesight or other magical detection abilities.</p>
+			<p class="indent">Unless otherwise stated, you can see and speak using your Stand. You can dismiss your Stand as a free action, and it will disappear if you are reduced to 0 hit points.</p>
+			<p>As your Stand grows stronger, it will gain certain abilities that require saving throws or special attacks. You use Charisma for your Stand DC and attack roll.s</p>
+			<p>Stand DC: 8 + your proficiency bonus + your charisma modifier</p>
+			<p>Stand Attack Modifier: your proficiency bonus + your charisma modifier</p>
+		</description>
+		<sheet>
+		<description> 
+		<p><strong>Stand DC:</strong> {{stand:dc}}.</p>
+		<p><strong> Stand Attack Modifer:</strong> +{{stand:attack mod}}</p>
+		</description>
+		</sheet>
+		<rules>
+			<stat name="stand:dc" value="8" />
+			<stat name="stand:dc" value="charisma:modifier" bonus="ability" />
+			<stat name="stand:dc" value="proficiency" bonus="proficiency" />
+			<stat name="stand:attack mod" value="charisma:modifier" bonus="ability" />
+			<stat name="stand:attack mod" value="proficiency" bonus="proficiency" />		
+		</rules>
+	</element>
+	<element name="Stand Type" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_STANDTYPE">
+		<description>
+			<p>When you first manifest your stand, you choose its type. As your stand grows, it gains certain benefits based on its type at 1st, 3rd, 6th, 11th, 14th, 17th level.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Archetype" name="Stand Type" supports="Stand Type" level="1" />
+		</rules>
+	</element>
+	<element name="Unarmored Defense" type="Class Feature" source="Player’s Handbook" id="ID_CLASS_FEATURE_UNARMOREDDEFENSE">
+		<description>
+			<p>Finally, at 1st level, your awakened spirit gives you the resolve to stand against any blow. While not wearing armor or using a shield, your AC is equal to 10 +your dexterity modifier + your charisma modifier.</p>
+		</description>
+		<sheet>
+			<description>While you aren’t wearing armor or using a shield, your AC equals {{ac:unarmored defense stand user}}.</description>
+		</sheet>
+		<rules>
+			<stat name="ac:unarmored defense stand user:base" value="10" />
+			<stat name="ac:unarmored defense stand user:dexterity" value="dexterity:modifier" />
+			<stat name="ac:unarmored defense stand user:charisma" value="charisma:modifier" />
+
+			<stat name="ac:unarmored defense stand user" value="ac:unarmored defense stand user:base" />
+			<stat name="ac:unarmored defense stand user" value="ac:unarmored defense stand user:dexterity" />
+			<stat name="ac:unarmored defense stand user" value="ac:unarmored defense stand user:charisma" />
+
+			<stat name="ac:calculation" value="ac:unarmored defense stand user" bonus="calculation" equipped="[armor:none],[shield:none]" alt="Unarmored Defense (Stand User)" />
+		</rules>
+	</element>
+	<element name="Growth" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_GROWTH">
+		<description>
+			<p>Starting at 2nd level, your Stand begins to grow. It learns one of the Growth options listed at the end of the class description.</p>
+			<p class="indent">As you gain levels in this class, your Stand continues to grow. Consult the Growth column of the class table. When you gain a level in this class, you can switch out one of your growth options for another, so long as you meet any prerequisites for it.</p>
+		</description>
+		<rules>
+			<select type="Class Feature" name="Growth (Level 2)" supports="Growth" level="2" number="1" />
+			<select type="Class Feature" name="Growth (Level 5)" supports="Growth" level="5" />
+			<select type="Class Feature" name="Growth (Level 7)" supports="Growth" level="8" />
+			<select type="Class Feature" name="Growth (Level 9)" supports="Growth" level="11" />
+			<select type="Class Feature" name="Growth (Level 12)" supports="Growth" level="14" />
+			<select type="Class Feature" name="Growth (Level 15)" supports="Growth" level="17" />
+			<select type="Class Feature" name="Growth (Level 18)" supports="Growth" level="20" />
+		</rules>
+	</element>
+	<element name="Stand Power" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_STANDPOWER">
+		<description>
+			<p>Also at 2nd level, your Stand gains access to a wellspring of power within you. This Stand Power is represented as a number of points equal to your level, seen in the Stand Power column of the class table.</p>
+			<p>These points are used to fuel certain class features and growths. You can regain spent points as part of a short rest or long rest, with you smoking, playing cards, or cracking wise with your party members.</p>
+		</description>
+		<sheet>
+			<description>
+				<p>You have {{stand-points}} Stand Power Points</p>
+			</description>
+		</sheet>
+		<rules>
+			<stat name="stand-points" value="2" level="2" />
+			<stat name="stand-points" value="1" level="3" />
+			<stat name="stand-points" value="1" level="4" />
+			<stat name="stand-points" value="1" level="5" />
+			<stat name="stand-points" value="1" level="6" />
+			<stat name="stand-points" value="1" level="7" />
+			<stat name="stand-points" value="1" level="8" />
+			<stat name="stand-points" value="1" level="9" />
+			<stat name="stand-points" value="1" level="10" />
+			<stat name="stand-points" value="1" level="11" />
+			<stat name="stand-points" value="1" level="12" />
+			<stat name="stand-points" value="1" level="13" />
+			<stat name="stand-points" value="1" level="14" />
+			<stat name="stand-points" value="1" level="15" />
+			<stat name="stand-points" value="1" level="16" />
+			<stat name="stand-points" value="1" level="17" />
+			<stat name="stand-points" value="1" level="18" />
+			<stat name="stand-points" value="1" level="19" />
+			<stat name="stand-points" value="1" level="20" />
+		</rules>
+	</element>
+	<element name="Ability Score Improvement" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_STANDUSER">
+		<compendium display="false" />
+		<description>
+			<p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<select type="Class Feature" name="Improvement Option (Stand User 4)" supports="Improvement Option,Stand User,4" level="4" />
+			<select type="Class Feature" name="Improvement Option (Stand User 8)" supports="Improvement Option,Stand User,8" level="8" />
+			<select type="Class Feature" name="Improvement Option (Stand User 12)" supports="Improvement Option,Stand User,12" level="12" />
+			<select type="Class Feature" name="Improvement Option (Stand User 16)" supports="Improvement Option,Stand User,16" level="16" />
+			<select type="Class Feature" name="Improvement Option (Stand User 19)" supports="Improvement Option,Stand User,19" level="19" />
+		</rules>
+	</element>
+	<element name="Extra Attack" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_EXTRAATTACK">
+		<description>
+			<p>Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.</p>
+		</description>
+		<sheet>
+			<description level="5">You can attack twice, instead of once, whenever you take the Attack action on your turn</description>
+		</sheet>
+		<rules>
+			<stat name="extra attack:count" value="2" level="5" bonus="extra attack" />
+		</rules>
+	</element>
+	<element name="Enduring Resolve" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_ENDURINGRESOLVE">
+		<description>
+			<p>When you reach 7th level, you gain the will to withstand any blow. When you are forced to make a Constitution saving throw or take half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
+		</description>
+		<sheet>
+			<description>When you roll a Constitution Saving Throw or take half damage, you take no damage if you succeed and half if you fail</description>
+		</sheet>
+		<rules>
+			<stat name="enduring resolve" level="5" />
+		</rules>
+	</element>
+	<element name="Menacing Aura" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_MENACINGAURA">
+		<description>
+			<p> At 9th level, your experience as a combatant shows in every step.</p>
+			<p>At the start of your turn, you can send 1 Stand Power point to force creatures of your choice within 10 feet of you must make a wisdom save against your Stand DC. On a failure, they are either charmed or frightened. You decide which condition is inflicted when you first gain this feature. If a creature succeeds the save, they are cannot be affected by it for 24 hours.</p>
+			<p>At 18th level, this range increases out to 30 feet, and can affect creatures who normally can't be charmed or frightened, but they have advantage on the save.</p>
+		</description>
+		<sheet>
+			<description level="9">You can spend 1 Stand Power Point to force your choice of creatures within 10ft. to make a wisdom save or be charmed or frightened. Range increases to 30ft. at level 18th level</description>
+		</sheet>
+	</element>
+	<element name="Stand Proud" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_STANDPROUD">
+		<description>
+			<p>At 10th level, you have learned that those that can stand tall after every struggle are the ones who will win. You have advantage on saving throws to resist being exhausted, and aren't affected by the first two levels of exhaustion you gain.</p>
+			<p>After you gain your third level, you are affected as if you had one level of exhaustion, and so on. In addition, when you take damage, you can reduce it by an amount equal to your charisma modifier (minimum of one).</p>
+		</description>
+		<sheet>
+			<description level="10">You have advantage on saving throws to resist being exhausted, and aren't affected by the first two levels of exhaustion you gain.After you gain a third level, it acts like a first level and you can reduce damage to an amount equal to your charisma modifer</description>
+		</sheet>
+	</element>
+	<element name="Trickster's Resolution" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_TRICKSTERSRESOLUTION">
+		<description>
+			<p>At 13th level, your force of will allows you to deflect great harm. When you are forced to make an intelligence or wisdom saving throw, you can spend 3 Stand Power points to roll a charisma saving throw in it's place. You can also use this ability for strength and dexterity saving throws, but instead making it a constitution saving throw.</p>
+		</description>
+		<sheet>
+			<description level="13">When you are forced to make an intelligence or wisdom saving throw, you can spend 3 Stand Power points to roll a charisma saving throw in it's place.You can also use this ability for strength and dexterity saving throws, but instead making it a constitution saving throw.</description>
+		</sheet>
+	</element>
+		<element name="Unyeilding Resolve" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_UNYIELDINGRESOLVE">
+		<description>
+			<p>By the time you reach 15th level, your mind has hardened itself to any hurdle you may come across. You become proficient in Wisdom saving throws.</p>
+		</description>
+		<sheet>
+			<description level="15">You are proficient in Wisdom saving throws.</description>
+		</sheet>
+		<grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_WISDOM" requirements="!ID_MULTICLASS_STANDUSER" level="15"/>
+	</element>
+		<element name="A Quiet Requiem Plays" type="Class Feature" source="Homebrew" id="ID_CLASS_FEATURE_AQUIETREQUIEMPLAYS">
+		<description>
+			<p>When you reach 20th level, your Stand achieves its ultimate power. In this new form, known as Requiem, your Stand is sentient. It gains a wisdom, intelligence, and charisma score equal to 20.</p>
+			<p>Your Stand can now act on its own, striking at foes even when you aren't aware of any danger. When you roll for initiative, you also roll for your Stand. Your Stand has its own turn, action, bonus action, reaction, and movement. Your Stand can perform any action you can make it do, such as the Close-Range-Type's Volley of Blows.</p>
+			<p>In addition, any creature killed by your Stand become trapped in an endless loop of death. Defeat is a distant memory. Now, victory is always certain.</p>
+		</description>
+		<sheet>
+			<description level="20">You're stand now has a wisdom, intelligence, and charisma score equal to 20. It also has its own initiative and can perform its own action, bonus action, reaction, and movement. </description>
+		</sheet>
+	</element>
+	<!--Stand Types-->
+	<element name="Long Range" type="Archetype" source="Homebrew" id="ID_ARCHETYPE_LONG_RANGE">
+	<supports>Stand Type</supports>
+	<description>
+	<p>Long-Ranged Stands are the most diverse of the lot. Generally, they can have any assortment of powers, skills, and weaknesses. The only common trait that any two Stands of this type share is their range, far wider than the close-range types.</p>
+	<p><strong>Range: </strong>Your stand has a range of 30 feet</p>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_STRIKEFROMAFAR"/>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_KEENSIGHT"/>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_PERFECTTRAP"/>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_ALLSEEINGEYES"/>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_UNYIELDNGASSULT"/>
+		<div element="ID_ARCHETYPE_FEATURE_LONG_RANGE_NOONECANREFLECTTHIS"/>
+	</description>
+	<sheet display="false">
+			<description>Long-Ranged Stands are the most diverse of the lot. Generally, they can have any assortment of powers, skills, and weaknesses. The only common trait that any two Stands of this type share is their range, far wider than the close-range types.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_STRIKEFROMAFAR" level="1" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_KEENSIGHT" level="3" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_PERFECTTRAP" level="6" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_ALLSEEINGEYES" level="11" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_UNYIELDNGASSULT" level="14" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_NOONECANREFLECTTHIS" level="17"/>
+		</rules>
+	</element>
+	<element name="Strike from Afar" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_STRIKEFROMAFAR">
+		<description>
+		<p>When you awaken your Stand at 1st level, you also realize your Stand has the capability to strike at a distance. When you take the attack action, you can have your Stand fire off a magical attack of your choice (such as fire, darts, or magic gemstones) within a range of 30/60. You make a ranged stand attack, dealing 1d6 + your charisma modifier in force damage.</p>
+		<p>This attack gains an additional d6 damage die at 7th, 11th, 14th level. In addition, when you make a ranged attack against a target, your Stand can also make one as a bonus action.</p>
+		</description>
+		<sheet>
+		<p>Your stand can fire projectiles with a range of 30/60 dealing 1d6 + your charisma modifier in force damage.This attack gains an additional d6 damage die at 7th, 11th, 14th level. In addition, when you make a ranged attack against a target, your Stand can also make one as a bonus action.</p>
+		</sheet>
+	</element>
+	<element name="Keen Sight" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_KEENSIGHT">
+	<description>
+	<p>At 3rd level, you've gotten so used to seeing through your Stand's eyes that you can pick up small details much easier. You gain proficiency in the Investigation and Perception skills, and you can use your charisma for the checks. Any checks you make these skills use double your proficiency bonus.</p>
+	</description>
+	<sheet>
+		<description level="3">You gain proficiency in the Investigation and Perception skills, and you can use your charisma for the checks. Any checks you make these skills use double your proficiency bonus.</description>
+	</sheet>
+	<grant type="Proficiency" id="ID_PROFICIENCY_INVESTIGATION" requirements="!ID_ARCHETYPE_LONG_RANGE" level="3"/>
+	<grant type="Proficiency" id="ID_PROFICIENCY_PERCEPTION" requirements="!ID_ARCHETYPE_LONG_RANGE" level="3"/>
+	</element>
+	<element name="Perfect Trap" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_PERFECTTRAP">
+		<description>
+			<p>When you reach 6th level, you've learned to set traps and snare enemies with your Stand. Using your action, you can touch an object or surface to prepare a trap using your Stand. When setting the trap, you must set up a trigger (ex. when someone walks through the door), and decide which effect occurs (see below). When triggered, the creature responsible must make a Dexterity save against your Stand DC. On a failure, it suffers one of the following effects:</p>
+			<p class="indent">They are hurt and take 3d10 force damage.</p>
+			<p class="indent">They are restrained and must make strength saves at the start of their turn to break free.</p>
+			<p class="indent">They are disoriented and have disadvantage on all rolls until the end of their next turn.</p>
+			<p>You can only have two traps active at any given time. If you set up a third trap, the oldest disappears.</p>
+		</description>
+		<sheet>
+			<description level="6">You can set traps using an action, you must set up a trigger and decide on the desired effect (3d10 force damage, restraining and must make a strength save, dissadvantage on rolls till next turn), the creature must succeed on a dex saving throw against your stand's dc or activate the trap. You can only have 2 traps active at a time.</description>
+		</sheet>
+	</element>
+	<element name="All Seeing Eyes" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_ALLSEEINGEYES">
+		<description>
+			<p>At 11th level, you gain the ability to use your Stand to see what's hidden. This combined with your deductive abilities makes it easy to surmise information about the creature. While seeing through your Stand's eyes, you can use your action expend 3 Stand Power points and gain true sight out to 30 feet for one minute. If you see a creature, you can use your action to make an investigation check, the DC being equal to 10 + half their level (or cr,). On a success, you learn one of the following things of your choice:</p>
+			<p class="indent">Their most damaging attack.</p>
+			<p class="indent">Their level(or cr)</p>
+			<p class="indent">Any resistance, immunity, or vulnerabilites they have</p>
+			<p class="indent">Their highest stat</p>
+			<p class="indent">What they plan to do next round (or six seconds)</p>
+			<p>You can do this a number of times equal to your charisma modifier (minimum of one) per long rest.</p>
+		</description>
+		<sheet action="Action" usage="Charisma Mod/Long Rest">
+			<description level="11">You can use your action expend 3 Stand Power points and gain true sight out to 30 feet for one minute. If you see a creature, you can use your action to make an investigation check, the DC being equal to 10 + half their level (or cr,). On a success, you learn one of the following things of your choice: Their most damaging attack, Their level(or cr), Any resistance, immunity, or vulnerabilites they have, Their highest stat, or What they plan to do next round (or six seconds) </description>
+		</sheet>
+	</element>
+	<element name="Unyielding Assault" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_UNYIELDNGASSULT">
+		<description>
+			<p>By the time you reach 14th level, your ranged attack becomes increasingly accurate. When you make an attack at a creature beyond 30 feet, you do not roll with disadvantage. Additionally, instead of making an attack roll you can force a creature within range to make a Dexterity saving throw.</p>
+		</description>
+		<sheet>
+			<description level="14">When you make an attack at a creature beyond 30 feet, you do not roll with disadvantage. Additionally, instead of making an attack roll you can force a creature within range to make a Dexterity saving throw.</description>
+		</sheet>
+	</element>
+	<element name="No One Can Reflect This!" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_LONG_RANGE_NOONECANREFLECTTHIS">
+		<description>
+			<p>At 17th level, your attacks become unstoppable. Once per round when you make a ranged attack against a creature within 15 feet of you, you can make it automatically hit. In addition, you can turn a hit into a critical hit twice per long rest, though only once per turn.</p>
+		</description>
+		<sheet action="Action" usage="2/Long Rest">
+		 <description level="17"> Once per round when you make a ranged attack against a creature within 15 feet of you, you can make it automatically hit. In addition, you can turn a hit into a critical hit twice per long rest, though only once per turn.</description>
+		</sheet>
+	</element>
+	<element name="Close Range" type="Archetype" source="Homebrew" id="ID_ARCHETYPE_CLOSE_RANGE">
+	<supports>Stand Type</supports>
+	<description>
+	<p>Close-Range stands are perhaps the most iconic of all. They are generally the most powerful when it comes to raw combat potential, their powers perfect for a brawl. Limited by their small range and narrowed skill set, a close-range user must be creative and flexible to fully realize their Stand's potential.</p>
+	<p><strong>Range: </strong>Your stand has a range of 5 feet</p>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_VOLLEYOFBLOWS"/>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_STRENGTHOFMIND"/>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_REBUKE"/>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_POWERFULLEAP"/>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_GOODGRIEF"/>
+		<div element="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_UNEXPECTEDDEVELOPMENT"/>
+	</description>
+	<sheet display="false">
+			<description>Close-Range stands are perhaps the most iconic of all. They are generally the most powerful when it comes to raw combat potential, their powers perfect for a brawl. Limited by their small range and narrowed skill set, a close-range user must be creative and flexible to fully realize their Stand's potential.</description>
+			<p><strong>Range: </strong>Your stand has a range of 5 feet</p>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_VOLLEYOFBLOWS" level="1" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_STRENGTHOFMIND" level="3" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_REBUKE" level="6" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_POWERFULLEAP" level="11" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_GOODGRIEF" level="14" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_UNEXPECTEDDEVELOPMENT" level="17"/>
+		</rules>
+	</element>
+	<element name="Volley of Blows" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_VOLLEYOFBLOWS">
+		<description>
+			<p>When you awaken your Stand at 1st level, you immediately learn its primary skill- swift, devastating attacks. As an action, you may choose a creature within your Stand's range. Your Stand makes a number of attack against this creature equal to your Charisma modifier. These attacks do 1d4 + your charisma modifier in force damage. This increases to 1d6 at 6th level, 1d8 at 14th, and 1d10 at 17th level.</p>
+			<p>You have a number of uses of this feature equal to your Charisma modifier (minimum of one), and regain expended uses at the end of a long rest.</p>
+		</description>
+		<sheet action="Action" usage="Charisma Mod/Long Rest">
+			<description> As an action, you may choose a creature within your Stand's range. Your Stand makes a number of attack against this creature equal to your Charisma modifier. These attacks do 1d4 + your charisma modifier in force damage. This increases to 1d6 at 6th level, 1d8 at 14th, and 1d10 at 17th level.</description>
+		</sheet>
+	</element>
+	<element name="Strength of Mind" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_STRENGTHOFMIND">
+		<description>
+			<p>At 3rd level, your Stand's overwhelming strength becomes mirrored onto you. You gain proficiency in the athletics and acrobatics skills, and you can use your charisma for the checks. Any checks you make these skills use double your bonus.</p>
+		</description>
+		<sheet>
+			<description level="3">You gain proficiency in the athletics and acrobatics skills, and you can use your charisma for the checks. Any checks you make these skills use double your bonus.</description>
+		</sheet>
+		<grant type="Proficiency" id="ID_PROFICIENCY_ATHLETICS" requirements="!ID_ARCHETYPE_CLOSE_RANGE" level="3"/>
+		<grant type="Proficiency" id="ID_PROFICIENCY_ACROBATICS" requirements="!ID_ARCHETYPE_CLOSE_RANGE" level="3"/>
+	</element>
+	<element name="Rebuke" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_REBUKE">
+		<description>
+			<p>When you reach 6th level, your Stand learns to move to strike back against those that attack you. When you take damage from an attack, you may use a reaction and have your Stand make a single attack, using its Volley of Blows damage dice.</p>
+			<p>At 14th level, you can expend a use and perform a Volley of Blows in place of the attack.</p>
+		</description>
+		<sheet>
+			<description level="6">When you take damage from an attack, you may use a reaction and have your Stand make a single attack, using its Volley of Blows damage dice. At 14th level, you can expend a use and perform a Volley of Blows in place of the attack.</description>
+		</sheet>
+	</element>
+	<element name="Powerful Leap" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_POWERFULLEAP">
+		<description>
+			<p>At 11th level, you begin to channel your Stand's strength into incredible feats of mobility. As a bonus action, you can have you and your Stand leap, up to double your walking speed, into the air. While in the air you can use a bonus action to hover until the end of your next turn.. Moving through the air is possible, though counts as difficult terrain.</p>
+		</description>
+		<sheet>
+			<description level="11">As a bonus action, you can have you and your Stand leap, up to double your walking speed, into the air. While in the air you can use a bonus action to hover until the end of your next turn.. Moving through the air is possible, though counts as difficult terrain.</description>
+		</sheet>
+	</element>
+	<element name="Good Grief" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_GOODGRIEF">
+		<description>
+			<p>When you reach 14th level, your Stand's ability to do massive harm surprises even you. You can now expend 4 Stand Power points to use your Volley of Blows, rather than expending a use.</p>
+		</description>
+		<sheet>
+			<description level="14">You can now expend 4 Stand Power points to use your Volley of Blows, rather than expending a use.</description>
+		</sheet>
+	</element>
+	<element name="Unexpected Development" type="Archetype Feature" source="Homebrew" id="ID_ARCHETYPE_FEATURE_CLOSE_RANGE_UNEXPECTEDDEVELOPMENT">
+		<description>
+			<p>When you arrive at 17th level, your Stand experiences an unexpected jump in power. Your Stand grows, gaining one more Growth than other Stands. You do not need to meet any of the prerequisites for this Growth (such as type or level), so long as you can justify your Stand having it to the DM.</p>
+		</description>
+		<sheet>
+			<description level="17">Your Stand grows, gaining one more Growth than other Stands. You do not need to meet any of the prerequisites for this Growth (such as type or level), so long as you can justify your Stand having it to the DM.</description>
+		</sheet>
+		<rules>
+		<select type="Class Feature" name="Growth (Unexpected Development)" supports="Growth"/>
+		</rules>
+	</element>
+	<element name="Automatic Stand (unfinished) " type="Archetype" source="Homebrew" id="ID_ARCHETYPE_AUTO">
+		<supports>Stand Type</supports>
+		<description>
+			<p>Automatic Type Stands are uniquely odd. The User does not have direct control over the Stand, which acts almost like a separate entity. Automatic Stands are terrifying, unstoppable, like a monster with no true weakness.</p>
+			<p><strong>Range: </strong>You Stand has no range. Rather, it has a movement speed equal to 5 times your Stand User level.</p>
+		</description>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_CONTROLLEDMONSTER"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_MONSTERSSHAPE"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_CREEPINGSHADOW"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_UNDYINGSOUL"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_FORCEOFWILL"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_STALKINGHUNTER"/>
+		<div element="ID_ARCHETYPE_FEATURE_AUTO_LIKEABREATHINGDOLL"/>
+		<sheet display="false">
+			<description>
+				<p>Automatic Type Stands are uniquely odd. The User does not have direct control over the Stand, which acts almost like a separate entity. Automatic Stands are terrifying, unstoppable, like a monster with no true weakness.</p>
+				<p><strong>Range: </strong>You Stand has no range. Rather, it has a movement speed equal to 5 times your Stand User level.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_CONTROLLEDMONSTER" level="1" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_MONSTERSSHAPE" level="1" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_CREEPINGSHADOW" level="3"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_UNDYINGSOUL" level="6" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_FORCEOFWILL" level="11" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_STALKINGHUNTER" level="14" />
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_AUTO_LIKEABREATHINGDOLL" level="17"/>
+		</rules>
+	</element>
+	
+	
+	
+	<element name="Persona (unfinished)" type="Archetype" source="Homebrew" id="ID_ARCHETYPE_PERSONA">
+		<supports>Stand Type</supports>
+		<description>
+			<p>Personas are an oddity in the world of Stand Users. Personas seem like Stands (though most consider them to be an offshoot from the standard types), though there are many differences. No one is ever born a Persona User, and all users of this variety require constant contact with some form of trigger to summon their Persona's (a card, a mask, etc.) In addition, Persona's have ready access to magic, even before their first spurts of growth. Though often belittled, Persona Users can be just as strong as their older siblings.</p>
+			<p><strong>Range: </strong>Your Persona always stays within your space. It has no effective range.</p>
+		</description>
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_SPIRITMAGIC"/>
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_SUMMONINGITEM"/> 
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_SMARTS" />
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_FOLLOWUP" />
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_PHYSICALMAGIC"/> 
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_AMPLIFIER" />
+		<div element="ID_ARCHETYPE_FEATURE_PERSONA_SECONDAWAKENING"/>
+		<sheet display="false">
+			<description>
+				<p>Personas are an oddity in the world of Stand Users. Personas seem like Stands (though most consider them to be an offshoot from the standard types), though there are many differences. No one is ever born a Persona User, and all users of this variety require constant contact with some form of trigger to summon their Persona's (a card, a mask, etc.) In addition, Persona's have ready access to magic, even before their first spurts of growth. Though often belittled, Persona Users can be just as strong as their older siblings.</p>
+				<p><strong>Range: </strong>Your Persona always stays within your space. It has no effective range.</p>
+			</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_SPIRITMAGIC" level="1"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_SUMMONINGITEM" level="1"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_SMARTS" level="3"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_FOLLOWUP" level="6"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_PHYSICALMAGIC" level="11"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_AMPLIFIER" level="14"/>
+			<grant type="Archetype Feature" id="ID_ARCHETYPE_FEATURE_PERSONA_SECONDAWAKENING" level="17"/>
+		</rules>
+	</element>
+	
+	
+	
+<!--Growth Options-->
+	<element name="Roundabout" type="Class Feature" source="Homebrew" id="ID_GROWTH_ROUNDABOUT">
+		<supports>Growth</supports>
+		<description>
+			<p>Your Stand's range grows. How much it grows is determined by its type.</p>
+			<p class="indent">Close Range: 5 feet</p>
+			<p class="indent">Long Range: 30 feet</p>
+			<p class="indent">Automatic Stand: Movement speed increases by 30 feet</p>
+			<p>You can choose this growth 3 times</p>
+		</description>
+		<sheet>
+		<description requirements="ID_ARCHETYPE_CLOSE_RANGE">Your Stand's range is incresased by 5 feet</description>
+		<description requirements="ID_ARCHETYPE_LONG_RANGE">Your Stand's range is increased by 30 feet</description>
+		<description requirements="ID_ARCHETYPE_AUTO">Your Stand's movement speed is increased by 30 feet</description>
+		<!--Add Automatic Stand once i finsih it-->
+		</sheet>
+	</element>
+	<element name="Earth, Wind, and Fire" type="Class Feature" source="Homebrew" id="ID_GROWTH_EARTHWINDANDFIRE">
+		<supports>Growth</supports>
+		<description>
+			<p>When you choose this growth, pick one of the following: acid, cold, fire, lightning, poison, thunder. Any damage you deal with your Stand now does that damage type. In addition, this damage bypasses resistance to that damage type.</p>
+			<p>At 14th level, this also bypasses immunity to that damage type.</p>
+		</description>
+		<sheet>
+		<description>Choose a type (acid, cold, fire, lightning, poison, thunder) and your stand now does that damage type with every attack. At 14th level, it bypasses immunity</description>
+		</sheet>
+	</element>
+	<element name="Heavy Glow" type="Class Feature" source="Homebrew" id="ID_GROWTH_HEAVYGLOW">
+		<supports>Growth</supports>
+		<prerequisite>Long Range Stand</prerequisite>
+		<requirements>ID_ARCHETYPE_LONG_RANGE</requirements>
+		<description>
+		<p>Your Stand can unleash a burst of light to blind your foes. When a creature makes an attack against you, you can spend 1 Stand Power point and force them to make a constitution save or become blinded for 1 round. You can do this a number of times equal to your charisma modifier per short or long rest.</p>
+		</description>
+		<sheet action="Reaction" usage="Charmisma Mod/Short Rest">
+			<description>As a Reaction, You can use 1 Stand Power Point to force your attack to make a constitution save or be blinded for one round.</description>
+		</sheet>
+	</element>
+	<element name="You Shine Like The Sun" type="Class Feature" source="Homebrew" id="ID_GROWTH_YOUSHINELIKETHESUN">
+		<supports>Growth</supports>
+		<description>
+			<p>Your Stand gains the power to heal wounds and put things in their proper place. You learn the mending cantrip. In addition, you can use your action and touch a creature, expending up to your Charisma modifier in Stand Power points. The creature regains hit points equal to the number of points spent times half your Stand User level.</p>
+		</description>
+		<sheet>
+			<description>You learn the mending cantrip. In addition, you can use your action and touch a creature, expending up to your Charisma modifier in Stand Power points. The creature regains hit points equal to the number of points spent times half your Stand User level.</description>
+		</sheet>
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_MENDING" />
+		</rules>
+	</element>
+	<element name="I Have My Freedom But Not Much Time" type="Class Feature" source="Homebrew" id="ID_GROWTH_IHAVEMYFREEDOMBUTNOTMUCHTIME">
+		<supports>Growth</supports>
+		<description>
+			<p>Your Stand gains the ability to open new paths. As an action, you can have your Stand touch an object or structure (such as an obelisk or a wall). On this object appears a small, magical portal, big enough for you to fit through. This portal cannot destroy objects or structures, or affect creatures at all. You can move through this portal as if there was nothing obstructing you. You can only have one portal open at a time.</p>
+		</description>
+		<sheet action="Action">
+			<description>Your stand can now open portals through objects to the other side. You can only have one portal open at a time</description>
+		</sheet>
+	</element>
+	<element name="Satan's Coming 'Round The Bend" type="Class Feature" source="Homebrew" id="ID_GROWTH_SATANSCOMINGROUNDTHEBEND">
+		<supports>Growth</supports>
+		<prerequisite>Automatic Stand</prerequisite>
+		<requirements>ID_ARCHETYPE_AUTO</requirements>
+		<description>
+			<p>Your Stand can stalk the shadows like a prowling hunter. As a bonus action, you and your Stand can teleport to a space within 30 feet that is within dim light or darkness.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You and your Stand can teleport to a space within 30 feet that is within dim light or darkness.</description>
+		</sheet>
+	</element>
+	<element name="It's A Wild Hurricane" type="Class Feature" source="Homebrew" id="ID_GROWTH_ITSAWILDHURRICANE">
+		<description>
+			<p>Your Stand can track any creature. As a bonus action, you may mark a creature, summoning your Stand. Your Stand will follow the target, moving at double it's movement speed, so long as they stay within a one-mile radius of you. When you activate this growth, you can spend 2 Stand Power points. If you do so, the range is removed.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You may mark a creature, summoning your Stand. Your Stand will follow the target, moving at double it's movement speed, so long as they stay within a one-mile radius of you. For 2 stand points, you can remove the range limit</description>
+		</sheet>
+	</element>
+	<element name="One Tin Soldier" type="Class Feature" source="Homebrew" id="ID_GROWTH_ONETINSOLDIER">
+		<supports>Growth</supports>
+		<prerequisite>Close Range Stand</prerequisite>
+		<requirements>ID_ARCHETYPE_CLOSE_RANGE</requirements>
+		<description>
+			<p>Your Stand takes the form of armor you can wear. As a bonus action, you can don your Stand. Your armor class increases by an amount equal your charisma modifier (minimum of one). Your Stand can stay in this form for one minute. You have two uses of this feature, and regain both at the end of a long rest.</p>
+		</description>
+		<sheet action="Bonus Action" usage="2/Long Rest">
+			<description>You can don your Stand. Your armor class increases by an amount equal your charisma modifier (minimum of one). Your Stand can stay in this form for one minute.</description>
+		</sheet>
+	</element>
+	<element name="Stand By Me" type="Class Feature" source="Homebrew" id="ID_GROWTH_STANDBYME">
+		<supports>Growth</supports>
+		<prerequisite>Persona</prerequisite>
+		<requirements>ID_ARCHETYPE_PERSONA</requirements>
+		<description>
+			<p>Your Persona intertwines another's Fate into your own, making you each other's confidant. Over the course of a short or long rest, or after some important interaction, choose a creature you know. You assign to the creature a card, representing some aspect of their personality. You and the creature gain one of the following benefits, choosing when you gain this growth:</p>
+			<p class="indent"><strong>The Fool.</strong> The Fool signifies new paths and growth. You and your confidant gain proficiency in two new skills, tools, or languages, which you can only use while you can see each other.</p>
+			<p class="indent"><strong>The Magician</strong>The Magician signifies intellect and curiosity. Choose one cantrip you or your confidant knows. While you can see each other, you and the creature can cast the cantrip as a bonus action.</p>
+			<p class="indent"><strong>The High Priestess</strong>The High Priestess signifies intuition and understanding. You and your confidant have advantage on insight checks made while you can see each other.</p>
+			<p class="indent"><strong>The Empress</strong>The Empress signifies beauty and a giving spirit. You and your confidant have advantage on persuasion checks made while you can see each other.</p>
+			<p class="indent"><strong>The Emperor</strong>The Emperor signifies power and authority. You and your confidant have advantage on intimidation checks made while you can see each other.</p>
+			<p class="indent"><strong>The Hierophant</strong>The Hierophant signifies wisdom and religiousness. You and your confidant have advantage on religion checks made while you can see each other.</p>
+			<p class="indent"><strong>The Lovers</strong>You and your confidant gain a +2 to AC while within ten feet of each other.</p>
+			<p class="indent">You can only have one confidant at any given time. You can change your confidant over the course of a long rest.</p>
+		</description>
+		<sheet>
+			<description>Over the course of a short or long rest, or after some important interaction, choose a creature you know. You assign to the creature a card, representing some aspect of their personality.Choose one of the benefits from the ability description</description>
+		</sheet>
+	</element>
+	<element name="You Are My Everything" type="Class Feature" source="Homebrew" id="ID_GROWTH_YOUAREMYEVERYTHING">
+		<supports>Growth</supports>
+		<description>
+			<p>Your Stand allows you to mimic others. As an action, you can cast Disguise Self, with a duration of 1 minute.</p>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you can cast Disguise Self, with a duration of 1 minute.</description>
+		</sheet>
+		<grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
+	</element>
+	<element name="I Would Walk 500 Miles" type="Class Feature" source="Homebrew" id="ID_GROWTH_IWOULDWALK500MILES">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Close Range Stand</prerequisite>
+		<requirements>[level:5],ID_ARCHETYPE_CLOSE_RANGE</requirements>
+		<description>
+			<p>You learn to move your Stand beyond its normal range, at the cost to its damage. As a bonus action, you can cause your Stand to unravel. It's range triples, but any damage dice rolled for its attacks are reduced by 1 size (ex. a d6 dropping to a d4.) It can not go below a d4. You can draw your Stand back into its normal range using another bonus action.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can cause your Stand to unravel. It's range triples, but any damage dice rolled for its attacks are reduced by 1 size (ex. a d6 dropping to a d4.) It can not go below a d4. You can draw your Stand back into its normal range using another bonus action.</description>
+		</sheet>
+	</element>
+	<element name="Sing With Me" type="Class Feature" source="Homebrew" id="ID_GROWTH_SINGWITHME">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Long Range Stand</prerequisite>
+		<requirements>[level:5], ID_ARCHETYPE_LONG_RANGE</requirements>
+		<description>
+			<p>Your Stand lets out a heartfelt song. As an action, you can expend 2 Stand Power points. Your Stand can begin radiating music. All creatures of your choice within your Stand's range must make a wisdom save, or be affected by the calm emotions spell, making them indifferent to you and your allies. This lasts for one minute, or until you use your action to end it.</p>
+		</description>
+		<sheet action="Action">
+			<description>As an action, you can expend 2 Stand Power points. Your Stand can begin radiating music. All creatures of your choice within your Stand's range must make a wisdom save, or be affected by the calm emotions spell, making them indifferent to you and your allies. This lasts for one minute, or until you use your action to end it.</description>
+		</sheet>
+	</element>
+	<element name="Like Puppets On A String" type="Class Feature" source="Homebrew" id="ID_GROWTH_LIKEPUPPETSONASTRING">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Close Range Stand</prerequisite>
+		<requirements>[level:5], ID_ARCHETYPE_CLOSE_RANGE</requirements>
+		<description>
+			<p>Your Stand can mimic others, revealing their past actions. As an action, you say a creature's name aloud. If the creature has been in your current location (up to 100 feet away) within a number of minutes equal to 12 times your charisma modifier, your Stand turns into that creature and begins mimicking every action they took. You can do this once per long rest, but can use it again at the cost of two Stand power points.</p>
+		</description>
+		<sheet action="Action" usage="1/Long Rest">
+			<description>You say a creature's name aloud. If the creature has been in your current location (up to 100 feet away) within a number of minutes equal to 12 times your charisma modifier, your Stand turns into that creature and begins mimicking every action they took. You regain a use of this with 2 Stand Points or a Long Rest.</description>
+		</sheet>
+	</element>
+	<element name="Around The World" type="Class Feature" source="Homebrew" id="ID_GROWTH_AROUNDTHEWORLD">
+		<supports>Growth</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p>Your Stand gains the ability to transform into a number of vehicle forms. With a minute of concentration, you can turn your Stand into a vehicle that can fit up to 1 + your charisma modifier people (though you can make it be smaller). While it is in this form, your stand loses the ability to take any action besides the dash action. It gains 40 ft. of a speed of your choice (choosing when the Stand transforms), and will have this speed until you use 1 minute to transform it into another vehicle or back to its original form.</p>
+		</description>
+		<sheet>
+			<description>With a minute of concentration, you can turn your Stand into a vehicle that can fit up to 1 + your charisma modifier people (though you can make it be smaller). While it is in this form, your stand loses the ability to take any action besides the dash action. It gains 40 ft. of a speed of your choice (choosing when the Stand transforms), and will have this speed until you use 1 minute to transform it into another vehicle or back to its original form.</description>
+		</sheet>
+	</element>
+	<element name="Another Lonely Super Star" type="Class Feature" source="Homebrew" id="ID_GROWTH_ANOTHERLONELYSUPERSTAR">
+		<supports>Growth</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p>Your Stand gains the power to draw others attention towards you. As an action, you can spend 2 Stand Power points and force any number of creatures within your Stand's range to make a wisdom save against your Stand DC. On a failure, they are forced to look at you. Investigation and Perception checks not pertaining to you are made at disadvantage, as well as attack rolls. On a success, they cannot be affected by this for the next 24 hours. Creatures can make the save again at the end of each of their turns, or when they take damage.</p>
+		</description>
+		<sheet action="Action">
+			<description>you can spend 2 Stand Power points and force any number of creatures within your Stand's range to make a wisdom save against your Stand DC. On a failure, they are forced to look at you. Investigation and Perception checks not pertaining to you are made at disadvantage, as well as attack rolls. On a success, they cannot be affected by this for the next 24 hours. Creatures can make the save again at the end of each of their turns, or when they take damage.</description>
+		</sheet>
+	</element>
+	<element name="Harder, Better, Faster, Stronger" type="Class Feature" source="Homebrew" id="ID_GROWTH_HARDERBETTERFASTERSTRONGER">
+		<supports>Growth</supports>
+		<prerequisite>5th level, One Tin Soldier</prerequisite>
+		<requirements>[level:5], ID_GROWTH_ONETINSOLDIER</requirements>
+		<description>
+			<p>You gain the ability to cast off the armor, granting you a burst of speed. As a bonus action, you can end the effect of One Tin Soldier and gain the effects of haste. It doesn't require concentration, and when it ends (after one minute) you do not lose your turn to sluggishness.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>You can end the effect of One Tin Soldier and gain the effects of haste. It doesn't require concentration, and when it ends (after one minute) you do not lose your turn to sluggishness.</description>
+		</sheet>
+	</element>
+	<element name="You'll Never See It Coming" type="Class Feature" source="Homebrew" id="ID_GROWTH_YOULLNEVERSEEITCOMING">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Persona</prerequisite>
+		<requirements>[level:5],ID_ARCHETYPE_PERSONA</requirements>
+		<description>
+			<p>Your Persona teaches you how to set up a vicious group assault. When you land a critical hit on a creature, and there are no other creatures you are fighting, you can spend a number of Stand Power points equal to your charisma modifier, and choosing a number of allies within 5 feet of the creature. Each of these allies can immediately make one weapon attack against the creature.</p>
+		</description>
+		<sheet>
+			<description>When you land a critical hit on a creature, and there are no other creatures you are fighting, you can spend a number of Stand Power points equal to your charisma modifier, and choosing a number of allies within 5 feet of the creature. Each of these allies can immediately make one weapon attack against the creature.</description>
+		</sheet>
+	</element>
+	<element name="Blood, Sweat, Tears, Years" type="Class Feature" source="Homebrew" id="ID_GROWTH_BLOODSWEATTEARSYEARS">
+		<supports>Growth</supports>
+		<prerequisite>5th level</prerequisite>
+		<requirements>[level:5]</requirements>
+		<description>
+			<p>Your Stand learns how to shift the environment. As an action, you can spend 2 Stand Power points and choose one of the following environmental effects to occur:</p>
+			<p class="indent"><strong>Winds</strong>Winds buffet a 10 ft. cube surrounded you. Ranged attacks that pass through this wind are at disadvantage.</p>
+			<p class="indent"><strong>Fog</strong>Heavy fog settles in a 15 ft. radius, centered on you. Creatures within the fog are heavily obscured.</p>
+			<p class="indent"><strong>Earthquake</strong>The ground in a 10 ft. radius around you shakes. This area is considered difficult terrain for creatures except you.</p>
+			<p>You must concentrate on this effect like a spell. These effects last for one minute, or until your concentration is broken. You can use this feature twice per long rest.</p>
+		</description>
+		<sheet action="Action" usage="2/Long Rest">
+			<description> You can spend 2 Stand Power points and choose one of the following environmental effects to occur, you must be concentrated on this for it to take effect: Winds buffet a 10 ft. cube surrounded you. Ranged attacks that pass through this wind are at disadvantage, Heavy fog settles in a 15 ft. radius, centered on you. Creatures within the fog are heavily obscured, The ground in a 10 ft. radius around you shakes. This area is considered difficult terrain for creatures except you </description> 
+		</sheet>
+	</element>
+	<element name="You're Dead In His Sights" type="Class Feature" source="Homebrew" id="ID_GROWTH_YOUREDEADINHISSIGHTS">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Automatic Stand</prerequisite>
+		<requirements>[level:5], ID_ARCHETYPE_AUTO</requirements>
+		<description>
+			<p>Your Stand can now turn into objects. As a bonus action, or when you roll for initiative, you can have your Stand turn into a visible object you can hold and whose gp value is less than 50. This object can be used for spell components or a focus, but only if the components aren't consumed. If it turns into a weapon, it is considered magical, and gains a +1 bonus to attack and damage rolls. While in this form, the Stand cannot take actions. Your Stand remains as an object until you use your action to turn it back, or if it's trigger is activated. At 11th level, this becomes a +2 bonus.</p>
+		</description>
+		<sheet action="Bonus Action/When you roll Initiative">
+			<description>you can have your Stand turn into a visible object you can hold and whose gp value is less than 50. This object can be used for spell components or a focus, but only if the components aren't consumed. If it turns into a weapon, it is considered magical, and gains a +1 bonus to attack and damage rolls. While in this form, the Stand cannot take actions. Your Stand remains as an object until you use your action to turn it back, or if it's trigger is activated. At 11th level, this becomes a +2 bonus.</description>
+		</sheet>
+	</element>
+	<element name="Do You Know Just How I Feel" type="Class Feature" source="Homebrew" id="ID_GROWTH_DOYOUKNOWJUSTHOWIFEEL">
+		<supports>Growth</supports>
+		<prerequisite>5th level, Automatic Stand, It's A Wild Hurricane</prerequisite>
+		<requirements>[level:5],ID_ARCHETYPE_AUTO,ID_GROWTH_ITSAWILDHURRICANE</requirements>
+		<description>
+			<p>Your Stand can now self destruct. When your Stand touches your target, you can use your reaction to have the Stand explode. Creatures within a 10 ft. radius of the Stand must make a dexterity saving throw. On a failure, they take a number of d6s equal to your Stand User level in force damage. On a success, they take half. Once you use this, you're Stand cannot track a creature until your next long rest.</p>
+		</description>
+		<sheet action="Reaction">
+			<description>When your Stand touches your target, you can use your reaction to have the Stand explode. Creatures within a 10 ft. radius of the Stand must make a dexterity saving throw. On a failure, they take a number of d6s equal to your Stand User level in force damage. On a success, they take half. Once you use this, you're Stand cannot track a creature until your next long rest.</description>
+		</sheet>
+	</element>
+</elements>
