@@ -12,6 +12,6 @@
 		<file name="source.xml" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO/source.xml" />
 		
 		<!-- classes -->
-		<file name="race-dragonborn.xml" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO/classes/class-awakened.xml" />
+		<file name="class-awakened.xml" url="https://raw.githubusercontent.com/Pogger-chan/Age-of-adventurers-things/main/AoO/classes/class-awakened.xml" />
 	</files>
 </index>
